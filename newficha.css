@@ -75,7 +75,7 @@ box-sizing: border-box;
 #ficha span.pontos b {
   color: var(--grupo);
   font-family: against;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 900;
   text-align: center;
 }
@@ -137,4 +137,5 @@ font-family: Poppins;
   color: var(--cor);
   box-sizing: border-box;
  
+
 }  
