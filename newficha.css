@@ -38,6 +38,7 @@ As demais partes foram feitas e elaboradas pela staff.
 box-sizing: border-box;    
 color: var(--cor);
   background: var(--background);
+   font: 14px/16px karla;
 }
 #ficha b {
   color: var(--grupo);
@@ -83,6 +84,7 @@ border-bottom: var(--border);
   font-family: against;
   font-size: 25px;
   font-weight: 900;
+   padding-bottom: 10px;
   text-align: center;
 }
 #ficha span.pontos i {
@@ -132,6 +134,7 @@ font-family: Poppins;
   width: calc(50% - 10px);
   padding: 5px;
   text-align: center;
+      font: 14px Karla;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,7 +149,7 @@ font-family: Poppins;
 
 #ficha .texto {
   width: calc(100% - 2px);
-      font: 14px/200% Karla;
+      font: 14px/150% Karla;
     color: var(--color);
     padding: 5px;
     margin-top: 3px;
@@ -176,4 +179,3 @@ font-family: Poppins;
   height: 5px;
   background: var(--grupo);
    }
-
