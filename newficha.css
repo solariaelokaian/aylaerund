@@ -1,3 +1,8 @@
+/********************* CREDITOS *********************/
+A estruturação de partes do código vindo de lyurcodes nos códigos de ficha do wandless para o nome e dados do personagem e atributos baseado na parte de atributos da ficha de personagem do sirion.
+As demais partes foram feitas e elaboradas pela staff.
+/********************* CREDITOS *********************/
+
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Lato:wght@400;700&display=swap');
 @font-face {
@@ -83,7 +88,7 @@ color: var(--cor);
 font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
  text-align: center;
   color: var(--cor);
   text-transform: uppercase;
@@ -137,4 +142,5 @@ font-family: Poppins;
   color: var(--cor);
   box-sizing: border-box;
  
+
 }  
