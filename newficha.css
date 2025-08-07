@@ -158,6 +158,8 @@ font-family: Poppins;
   background: var(--background);
 }
 
+#ficha .texto a{color: var(--deuses);}
+
 #ficha .texto a2 {
   font: 22px against;
    font-weight: bold;
@@ -179,4 +181,5 @@ font-family: Poppins;
   height: 5px;
   background: var(--grupo);
    }
+
 
