@@ -89,7 +89,7 @@ box-sizing: border-box;
   grid-area: stats;
   background: var(--background);
   padding: 20px;
-  border-top: var(--border);
+   padding-bottom: 0px;
   margin-top: -3px;
   box-sizing: border-box;
 }
@@ -120,4 +120,5 @@ font-family: Poppins;
   color: var(--cor);
   text-transform: uppercase;
 }
+
 
