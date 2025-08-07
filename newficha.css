@@ -134,13 +134,12 @@ font-family: Poppins;
   width: calc(50% - 10px);
   padding: 5px;
   text-align: center;
- font: 16px/150% Karla;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   overflow: hidden;
-  font: 11px Lato;
+  font: 11px Karla;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--cor);
@@ -181,6 +180,7 @@ font-family: Poppins;
   height: 5px;
   background: var(--grupo);
    }
+
 
 
 
