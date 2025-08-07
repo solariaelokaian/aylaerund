@@ -63,6 +63,7 @@ color: var(--cor);
   background: var(--background);
   padding: 20px;
   border-top: var(--border);
+border-bottom: var(--border);
   margin-top: -3px;
   box-sizing: border-box;
 }
@@ -175,3 +176,4 @@ font-family: Poppins;
   height: 5px;
   background: var(--grupo);
    }
+
