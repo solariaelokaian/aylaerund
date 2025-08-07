@@ -27,7 +27,7 @@ As demais partes foram feitas e elaboradas pela staff.
 :root {
   --background: #fefefe;
   --border: 1px solid #DAA520;
-  --troque: #a30000;
+  --grupo: #a30000;
   --cor: #000;
 }
  
@@ -180,3 +180,4 @@ font-family: Poppins;
   height: 5px;
   background: var(--grupo);
    }
+
