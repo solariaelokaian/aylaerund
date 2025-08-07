@@ -27,6 +27,13 @@ feito exclusivamente para o rpg com a estruturação de partes do código vindo 
   --border: 1px solid #1a1a1a;
   --troque: #a30000;
   --cor: #000;
+  --amazonas: #333;
+  --aprendizes: #444;
+  --arautos: #555;
+  --caçadoras: #777;
+  --campeoes: #666;
+  --sacerdotisas: #888;
+  --feiticeiras: #999;
 }
  
 #ficha .base {
