@@ -51,7 +51,7 @@ box-sizing: border-box;
  
 #extra .texto {
   width: calc(100% - 2px);
-      font: 14px/150% Karla;
+      font: 16px/150% Karla;
     color: var(--color);
     padding: 5px;
     margin-top: 3px;
@@ -120,6 +120,7 @@ font-family: Poppins;
   color: var(--cor);
   text-transform: uppercase;
 }
+
 
 
 
