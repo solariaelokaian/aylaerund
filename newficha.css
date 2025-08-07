@@ -24,13 +24,13 @@ feito exclusivamente para o tales of demigods com a estruturação de partes do 
 } 
 :root {
   --background: #fefefe;
-  --border: 1px solid #DAA520;
+  --border: 2px solid #DAA520;
   --troque: #a30000;
   --cor: #000;
 }
  
 #ficha .base {
- width: calc(858px - 2px);
+ width: calc(90% - 2px);
   margin: 0 auto;
   border: var(--border);
 box-sizing: border-box;    
@@ -140,4 +140,5 @@ font-family: Poppins;
   color: var(--cor);
   box-sizing: border-box;
  
+
 }  
