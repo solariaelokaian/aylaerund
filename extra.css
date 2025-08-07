@@ -21,7 +21,7 @@
 } 
 :root {
   --background: #fefefe;
-  --border: 1px solid #DAA520;
+  --border: 2px solid #DAA520;
   --troque: #a30000;
   --cor: #000;
 }
@@ -71,4 +71,5 @@ box-sizing: border-box;
   height: 5px;
   background: var(--grupo);
    
+
 }
