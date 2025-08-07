@@ -59,6 +59,7 @@ box-sizing: border-box;
   box-sizing: border-box;
   background: var(--background);
 }
+
 #extra .fichabase a2 {
   font: 22px against;
    font-weight: bold;
@@ -119,3 +120,4 @@ font-family: Poppins;
   color: var(--cor);
   text-transform: uppercase;
 }
+
