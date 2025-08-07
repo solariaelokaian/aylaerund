@@ -27,13 +27,6 @@ feito exclusivamente para o rpg com a estruturação de partes do código vindo 
   --border: 1px solid #1a1a1a;
   --troque: #a30000;
   --cor: #000;
-  --amazonas: #333;
-  --aprendizes: #444;
-  --arautos: #555;
-  --caçadoras: #777;
-  --campeoes: #666;
-  --sacerdotisas: #888;
-  --feiticeiras: #999;
 }
  
 #ficha .base {
@@ -82,7 +75,7 @@ box-sizing: border-box;
 #ficha span.pontos b {
   color: var(--grupo);
   font-family: against;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 900;
   text-align: center;
 }
@@ -90,7 +83,7 @@ box-sizing: border-box;
 font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 14px;
  text-align: center;
   color: var(--cor);
   text-transform: uppercase;
