@@ -89,8 +89,7 @@ box-sizing: border-box;
   grid-area: stats;
   background: var(--background);
   padding: 10px;
-   padding-bottom: 0px;
-   margin-bottom: -10px;
+   margin-bottom: -35px;
   margin-top: -3px;
   box-sizing: border-box;
 }
@@ -121,3 +120,4 @@ font-family: Poppins;
   color: var(--cor);
   text-transform: uppercase;
 }
+
