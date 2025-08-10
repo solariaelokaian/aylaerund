@@ -1,0 +1,7 @@
+progress[value].v-mpbar::-moz-progress-bar{background-color: steelblue !important; -webkit-appearance: none; appearance: none;}
+progress.v-mpbar::-webkit-progress-value {background-color: steelblue !important; -webkit-appearance: none; appearance: none;}
+progress[value].v-vbar::-moz-progress-bar{background: crimson; -webkit-appearance: none; appearance: none;}
+progress.v-vbar[value]::-webkit-progress-value {background: crimson; -webkit-appearance: none; appearance: none;}
+progress, progress.v-vbar::-webkit-progress-bar {border: none; border-radius: 2px; background: #eee; text-align: left; -webkit-appearance: none; appearance: none; width: 430px;}
+progress[value].v-stabar::-moz-progress-bar{background-color: #FFD700 !important; -webkit-appearance: none; appearance: none;}
+progress.v-stabar::-webkit-progress-value {background-color: #FFD700 !important; -webkit-appearance: none; appearance: none;}
