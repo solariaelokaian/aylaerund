@@ -26,7 +26,7 @@ As demais partes foram feitas e elaboradas pela staff.
 } 
 :root {
   --background: #fefefe;
-  --border: 2px solid #9370DB;
+  --border: 5px solid var(--troque);
   --troque: #a30000;
   --cor: #000;
 }
@@ -120,5 +120,6 @@ font-family: Poppins;
   color: var(--cor);
   text-transform: uppercase;
 }
+
 
 
