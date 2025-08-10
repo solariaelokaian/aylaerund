@@ -27,7 +27,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 } 
 :root {
   --background: #fefefe;
-  --border: 5px solid var(--grupo);
+  --border: 5px solid #a30000;
   --cor: #000;
 }
  
@@ -120,3 +120,4 @@ font-family: Poppins;
   color: var(--cor);
   text-transform: uppercase;
 }
+
