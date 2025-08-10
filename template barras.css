@@ -6,4 +6,4 @@ progress, progress.v-vbar::-webkit-progress-bar {border: none; border-radius: 2p
 progress[value].v-stabar::-moz-progress-bar{background-color: #FFD700 !important; -webkit-appearance: none; appearance: none;}
 progress.v-stabar::-webkit-progress-value {background-color: #FFD700 !important; -webkit-appearance: none; appearance: none;}
 
-.sta{color: #fff; background: #000; width: auto; padding: 2%; border: 2px solid #dedede;}
+.sta{color: #fff; background: #000; width: auto; padding: 2%;}
