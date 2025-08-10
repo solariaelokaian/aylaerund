@@ -1,5 +1,39 @@
-.txtprinc {width: 65%; padding: 3%; text-align: justify;font: 12px times new roman; color: #000; background: #fff; line-height: 20px; letter-spacing: 1px; word-spacing: 1px; border: 1px solid #ddd}
-.txtprinc strong {text-transform: uppercase; font-weight: 700}
-.txtprinc i {text-transform: uppercase; font-style: italic}
-.titul {text-transform: lowercase; color: #111; font: bold italic 40px playfair display; letter-spacing: -3px; text-align: center;}
-.titul:after {content: ''; display: block; width: 50px; height: 5px; background: #ddd; margin: 25px auto}
+.txtprinc {
+  width: 70%;
+  padding: 3%;
+  text-align: justify;
+  font: 12px times new roman;
+  color: #000;
+  background: #fff;
+  line-height: 120%;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  border: 1px solid #ddd
+}
+
+.txtprinc strong {
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+.txtprinc i {
+  text-transform: uppercase;
+             font-style: italic;
+}
+
+.titul {
+  text-transform: lowercase;
+        color: #111;
+        font: bold italic 40px playfair display;
+        letter-spacing: -3px;
+        text-align: center;
+}
+
+.titul:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #ddd;
+  margin: 25px auto
+}
