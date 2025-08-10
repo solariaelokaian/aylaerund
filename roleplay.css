@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Karla&family=Metamorphous&family=Raleway:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap'  rel="stylesheet");
 @import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap' rel="stylesheet")
 
-#rp-sd .titulo {
-  width: 550px;
+#rp-sd .titulo {  width: 550px;
                 height: auto;
                 background: #B0C4DE;
-                font-family: 'fjalla one';
+                font-family: 'Fjord One';
                 font-size: 20px;
                 text-transform: uppercase;
                 color: #000;
                 text-align: center;
                 padding: 20px;
                 border: 2px solid #000;
-                border-radius: 5px 5px 0px 0px;
-}
+                border-radius: 5px 5px 0px 0px;}
 
 #rp-sd .titulo:before{
   content:'\eb27';
