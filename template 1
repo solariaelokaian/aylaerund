@@ -1,0 +1,27 @@
+.a1 {width: 85%; padding: 50px; text-align: justify;font: 12px 'times new roman'; background-color: #fff; color: #000; line-height: 20px; letter-spacing: 1px; word-spacing: 1px; border: 1px solid #ddd}
+.a1 upe {font-weight: bolder; color: #DAA520; text-transform:uppercase;}
+.a1 ita {font-style: italic; color: #DAA520;}
+.a1 upa {font-style: italic; text-weight: bolder; color: #DAA520;}
+.a2 {text-transform: lowercase; color: #111; font: bold italic 40px playfair display; letter-spacing: -3px; text-align: center;}
+.a2:after {content: ''; display: block; width: 50px; height: 5px; background: #ddd; margin: 5px auto}
+.a3 {width: 100%; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 10px;}
+.a4 {text-transform: lowercase; color: #111; font: bold italic 25px playfair display; letter-spacing: -1px; text-align: center; padding-bottom:3px;}
+.a1 b{font-weight: bolder; color: #DAA520;}
+.a1 t{color: #20B2AA;}
+.a5 {column-count: 2; column-gap: 30px;}
+.a6 {column-count: 3; column-gap: 20px;}
+.a7 {column-count: 4; column-gap: 10px;}
+.a8 {column-count: 2; column-gap: 10px;}
+.a9 {padding-left: 70px; column-count: 2; column-gap: 10px;}
+.a10 {width: 100%; border-top: 1px solid #ddd;}
+.a11 {text-transform: lowercase; color: #111; font: bold italic 25px playfair display; letter-spacing: -1px; text-align: center;}
+.a11:after {content: ''; display: block; width: 50px; height: 5px; background: #ddd; margin: 5px auto}
+
+.column1 {
+  position: relative;
+}
+ 
+.column2 {
+  position: relative;
+  top: -350px;
+}
