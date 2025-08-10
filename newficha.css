@@ -41,17 +41,17 @@ color: var(--cor);
    font: 16px/150% karla;
 }
 #ficha b {
-  color: var(--grupo);
+  color: #a30000;
 }
 
 #ficha strong {
-  color: var(--grupo);
+  color: #a30000;
 }
 
 #ficha .nome {
   border-bottom: var(--border);
   padding: 30px;
-  color: var(--grupo);
+  color: #a30000;
   font: 30px against;
   font-weight: bold;
   text-transform: uppercase;
@@ -103,7 +103,7 @@ font-family: Poppins;
 }
 #ficha .foto {
   padding: 10px;
-  outline: 1px solid var(--grupo);
+  outline: 1px solid #a30000;
   outline-offset: 0px;
   width: 250px;
   flex-shrink: 0;
@@ -134,7 +134,7 @@ font-family: Poppins;
 }
 #ficha .dados info {
   background: var(--background);
- border: 1px solid var(--grupo);
+ border: 1px solid #a30000;
   height: 58px;
   width: calc(50% - 10px);
   padding: 5px;
@@ -183,6 +183,7 @@ font-family: Poppins;
   margin: 5px auto;
   width: 100%;
   height: 5px;
-  background: var(--grupo);
+  background: #a30000;
    }
+
 
