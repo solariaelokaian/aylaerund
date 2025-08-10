@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Fjord+One&family=Karla&family=Metamorphous&family=Raleway:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Karla&family=Metamorphous&family=Raleway:ital,wght@0,100..900;1,100..900&family=Seaweed+Script&display=swap'  rel="stylesheet");
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap' rel="stylesheet")
 
 #rp-sd .titulo {
   width: 550px;
