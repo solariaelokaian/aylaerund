@@ -12,6 +12,21 @@
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Serif&family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
+@font-face {
+   font-family: "Couture"; 
+  src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
+ format("truetype"); }
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 #prin {
   width: auto;
   height: auto;
@@ -23,7 +38,7 @@
 }
  #prin .basing {
    width: 100%;
-  padding: 35px;
+  padding: 2%;
   border: 1px solid var(--accent);
    
  } 
@@ -31,7 +46,7 @@
   width: 100%;
   background: var(--background);
   box-sizing: border-box;
-  border: var(--border);
+  border: 1px solid var(--accent);
   
 }
 #prin .head {
@@ -64,9 +79,9 @@
   
 }
 #prin .borda {
-  border: var(--border);
-  width: 2%;
-  height: 2%;
+  border: 1px solid var(--accent);
+  width: 85px;
+  height: 85px;
   padding: 5px;
   float: left; 
   margin: 5px 15px 10px 10px;  
