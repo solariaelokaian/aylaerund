@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap&family=Alex+Brush&display=swap"');
+.am{background-image: url(https://i.imgur.com/7iJix3U.jpeg); width: 90%; padding: 3%; margin: 20px; background-attachment: fixed;}
+.am1{width: auto; background: #fff; font-family: 'calibri'; color: #000; text-align: justify; padding: 2%; font-size: 14px; font-family: 'work sans';}
+.am1 strong {color: #1E90FF; font-weight: bold;}
+.am1 u{text-decoration:none; border-bottom: 2px solid #87CEEB; font-weight: 600;}
+.am1 i {color: #5F9EA0;}
+.am2{column-count: 2; column-gap: 30px; text-align: justify;}
