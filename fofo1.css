@@ -15,7 +15,7 @@
 #prin {
   width: auto;
   height: auto;
-  margin: 2% 0 0;
+  margin: 25px 0 0;
     
 }
 #prin b {
@@ -65,8 +65,8 @@
 }
 #prin .borda {
   border: var(--border);
-  width: 85px;
-  height: 85px;
+  width: 2%;
+  height: 2%;
   padding: 5px;
   float: left; 
   margin: 5px 15px 10px 10px;  
