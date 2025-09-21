@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Amarante&family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Charm:wght@400;700&family=Kurale&family=Metamorphous&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parisienne&family=Squada+One&display=swap" rel="stylesheet');
+.sal1{width: 90%; border: 4px double #B8860B; outline: 5px solid #000; background: #000; text-align: justify; color: #fff; font-family: arial; font-size: 14px; line-height: 16px; padding: 3%; margin: 2%;}
+.sal2{text-align: center; font-size: 60px; line-height: 62px; text-transform: uppercase; font-family: 'Bebas Neue', cursive; color: #be863d;}
+.sal2:after{width: 95%; border-bottom: solid 2px #B8860B; content: ''; display: block; align: center; margin: 25px auto; margin-bottom: 20px;}
+.sal1 h1{font-size: 36px; text-align: center; color: #be863d; font-family: 'Abril Fatface'; line-height: 130%;}
+.sal1 h2{font-size: 28px; text-align: center; color: #be863d; font-family: 'Abril Fatface'; line-height: 130%;}
+.sal1 el1{background-color: #B22222; color: #fff; padding: 5px; font-weight: bolder; border-radius: 5px;}
+.sal1 el2{background-color: #000; color: #fff; padding: 5px; font-weight: bolder; border-radius: 5px;}
+.sal1 el3{background-color: #DAA520; color: #fff; padding: 5px; font-weight: bolder; border-radius: 5px;}
+.sal1 el4{background-color: #9932CC; padding: 5px; font-weight: bolder; border-radius: 5px;} .sal1 el5{background-color: #fff; color: #000; padding: 5px; font-weight: bolder; border-radius: 5px;}
+.sal1 b {color: #be863d;} .sal1 strong {color: #be863d;} .de{font-size: 10px; text-align: center;}
+.sal2 u{text-decoration: none; border-bottom: 1px solid # B8860B; padding-bottom: 2px;}
