@@ -110,15 +110,5 @@
   color: var(--text);
   text-align: right;
   padding: 10px;
-  
-  
+   
 }
-#prin:after {
-  display: block;
-  content: "starlight";
-  padding: 5px 10px; 
-  font: 10px Consolas;
-  text-transform: uppercase;
-  opacity: .4;
-  font-weight: bold; 
-  color: #8c8c8c; }
