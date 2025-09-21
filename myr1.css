@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.myr { width: auto; height: 210px; background: #2E8B57 url(https://i.imgur.com/zrouWEh.jpeg)center/cover; padding: 20px; background-blend-mode: multiply; }
+.myrfont { width: auto; font-family: playfair display; font-style: italic; color: #fff; text-align: right; line-height: 130%; letter-spacing: 2px; margin-left: 60px; padding: 30px; margin-top: 30px; }
+.myrine { width: 3px; height: 120px; background: #fff; padding: 2px; margin-top: 40px; } .myrub { width: auto; height: auto; background: #F9F8F8; padding: 20px; border: 1px solid #2E8B57; }
+.myrpru { width: auto; font: 13px 'Poppins'; color: #111; text-align: justify; padding: 10px; line-height: 162%; }
+.myrpru b { color: #2E8B57; font-weight: bold;} .myrpru u{text-decoration:none;border-bottom:2px solid #F9F8F8; font-weight: 600;}
+.myrpru i { color: #2E8B57;}
+.myrdest{ font-family: poppins; font-weight: 900; font-size: 12px; color: #848484; text-transform: uppercase; text-align: right; letter-spacing: 3px;}
+.myrdest1{text-align: right;}
+.myricon {width: 100px; float: left; margin-right: 5px; border: 1px solid #dedede; padding: 3px;}
+.myrbgg { width: auto; height: auto; background-color: #FDFCFC; padding: 20px; border: 1px solid #2E8B57;  }
