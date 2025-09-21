@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kurale&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.fu1{width:850px; height:900px; background-image: url(https://i.imgur.com/CXN3hst.jpeg); background-repeat: no-repeat; background-size: cover; padding: 50px; margin: 1%;}
+.fu3{width: 90px; height: 90px; border: 1px solid #DAA520; float: left; margin-right: 15px; margin-bottom: 15px;}
+.fu4{width: 90px; height: 90px; background: url(https://i.imgur.com/KMIhrwv.png); position: relative; top: 10px; left: 10px; background-position: center; background-size: cover;opacity:0.98}
+.fu5{widht: auto; height: 100px; padding: 10px; border-top: 1px solid #dedede; line-height: 16px; border-bottom: 1px solid #dedede; text-transform: uppercase; font-size: 12px;}
+.scroll {width: auto; height: 690px; margin-right: -20px; margin-top: 10px; overflow-y: scroll; scrollbar-width: thin; scrollbar-color: #DAA520 #1C1C1C;}
+.fu2{width:auto; height: 860px; background-color: #1C1C1C; padding:20px; opacity: 0.9; text-align: justify; color: #fff; font-family: 'work sans';}
+.tu1{font-family:kurale; font-size: 40px; line-height: 44px; padding-bottom:8px; color: #EEDD82; text-align: center;} .fu2 a{color: #EEDD82; text-transform: uppercase; font-weight: bolder;}
+.fu2 b{color: #DAA520;}
+.fu2 strong{color: #DAA520;}
+.scroll1{padding-right: 10px;}
