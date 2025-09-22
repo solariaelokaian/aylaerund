@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Amarante&family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Fjalla+One&family=Metamorphous&family=Niconne&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Skranji:wght@400;700&family=UnifrakturCook:wght@700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.adm1{background: #1c1c1c; width: 90%; background-repeat: no-repeat; background-attachment: fixed; padding: 3%; font-family: verdana; color: white; border: 1px solid #1E90FF;}
+.adm2{background: url(https://i.imgur.com/oui8FQp.jpeg); filter: grayscale(100%); background-repeat: no-repeat; background-size: cover; padding: 50px; margin: -3%; border-bottom: 1px solid #1E90FF;}
+.ti{font-size: 65px; font-family: 'Pirata One'; padding-top: 1%; line-height: 66px; -webkit-text-stroke-width: 2px; -webkit-text-stroke-color: #000; font-size: 65px;}
+.adm4{background-color: #1c1c1c; margin-top: 6%; text-align: justify;}
+.adm4 h1{background-color: #1E90FF; color: #fff; font-size: 13px; text-transform: uppercase; border-radius: 10px; padding: 10px 20px; line-height: 15px; font-weight: 600; margin-left: -2%; margin-right: -2%; margin-bottom: 10px;}
