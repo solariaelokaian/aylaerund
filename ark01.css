@@ -1,0 +1,7 @@
+:root{--sacer: #FF4500; --hkt: #A020F0; --nyx: #0000CD;}
+.cfw1{width: auto; border: 1px solid #111; background-color: #fff; min-height: 100px; text-align: justify; padding: 35px; font: 18px times new roman; color: #000;}
+.cfw2 {text-transform: lowercase; color: var(--hkt); padding: 0px; font: bold italic 50px arial; letter-spacing: -5px; margin-bottom: 20px; text-align: center;}
+.cfw1 strong{color: var(--hkt);} .cfw1 b{color: var(--hkt);}
+.cfw1 i{color: var(--nyx);}
+.cfw1 u{border-bottom: 2px solid var(--nyx); font-weight: 600; text-decoration: none;}
+.cfw3{padding-left: 150px;}
