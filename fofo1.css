@@ -66,12 +66,33 @@
   box-sizing: border-box;
   color: var(--text);
 }
+
 #prin .postbase {
     background: var(--background); 
     width: 100%;
   padding: 30px;
   box-sizing: border-box;
 }
+
+#prin .postbase b{
+color: var(--accent);
+}
+
+#prin .postbase strong{
+color: var(--accent);
+}
+
+#prin .postbase i{
+color: var(--accent);
+}
+
+#prin .postbase u{
+  color: var(--text);
+   text-decoration: none;
+   border-bottom: 2px solid var(--accent);
+   font-weight: 600px;
+}
+
 #prin .photo {
   width: 85px;
   height: 85px;
