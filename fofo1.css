@@ -59,7 +59,7 @@
 }
 #prin .post {
   background: var(--background); 
-  font: 500 12px/200% Montserrat;
+  font: 500 13px/200% Montserrat;
   text-align: justify;
   letter-spacing: .5px;
   padding: 20px;
