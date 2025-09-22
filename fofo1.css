@@ -37,7 +37,7 @@
   color: var(--accent);
 }
  #prin .basing {
-   width: 100%;
+   width: auto;
   padding: 2%;
   border: 1px solid var(--accent);
    
