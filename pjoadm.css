@@ -28,7 +28,7 @@
 text-align: justify;
 color: white;
 background: black;
-padding: 2%;
+padding: 1%;
 border: 5px solid var(--accent);
  font: 16px/150% Karla;}
 
@@ -37,7 +37,8 @@ border: 5px solid var(--accent);
  text-transform: uppercase;
 text-align: center;
  display: block;
- padding: 2%;
+ padding: 3%;
+ margin-top: -1%;
  margin-bottom: 5px;
  margin-top: 5px;
  text-align: center;
