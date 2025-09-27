@@ -29,6 +29,43 @@ As demais informações e códigos foram feitos para uso no fórum.
   --background: #fefefe;
   --border: 5px solid #a30000;
   --cor: #000;
+   --imortais: #EEDD82;
+   --deuses: #B8860B;
+   --estagiarios: #DAA520;
+   --senado: #551A8B;
+   --coortes: #F08080;
+   --amazonas: #850303;
+   --aprendizes: #EEC900;
+   --artifices: #1E90FF;
+   --caçadoras: #BA55D3;
+   --campeoes: #00FF7F; 
+   --ceifadores: #696969; 
+   --curandeiros: #87CEEB; 
+   --devotos: #000080;
+   --druidas: #228B22; 
+   --ecos: #DB7093; 
+   --einherjar: #0000FF; 
+   --feiticeiras: #DB7093; 
+   --justiceiros: #CD6090;  
+   --arautos: #2E8B57;
+   --licantropos: #D2691E; 
+   --maos: #6B8E23; 
+   --mentalistas: #2E8B57; 
+   --sacerdotisas: #FF8C00; 
+   --trapaceiros: #7FFFD4; 
+   --valquirias: #4169E1;
+  --africanos: #8B4513; 
+   --americanos: #008B8B; 
+   --celtas: #32CD32; 
+   --egipcios: #F4A460; 
+   --gregos: #FF4500; 
+   --mesopotamicos: #A52A2A; 
+   --nordicos: #00FFFF;
+   --orientais: #FF0000; 
+   --criaturas: #A825A8; 
+   --humanos: #836FFF; 
+   --legados: #808000; 
+   --natureza: #035C03;
 }
  
 #extra b {
@@ -120,5 +157,6 @@ font-family: Poppins;
   color: var(--cor);
   text-transform: uppercase;
 }
+
 
 
