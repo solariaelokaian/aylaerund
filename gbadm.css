@@ -1,6 +1,6 @@
 .gbbg1{width: auto; background: #EAEAEA; height: 150px;}
-.gbd{width: auto; border-top: solid 2px #daa520; position:relative; top:75px;}
+.gbd{width: 90%; border-top: solid 2px #daa520; position:relative; top:75px;}
 .gbtt{font-family: 'Bebas Neue', cursive; color: #000; font-size: 58px; text-align: center;position:relative; top:-10px;}
 .gbsub1{font-family: arial; color: #000; font-size: 12px; text-align: center; text-transform: uppercase; padding-top: 20px;}
-.gbbg2{width: 690px; border: solid 15px #EAEAEA; background: white;}
+.gbbg2{width: auto; border: solid 15px #EAEAEA; background: white;}
 .gbb{width: auto; font-family: verdana; font-size: 12px; padding-top: 25px; color: #0d0d0d; text-align: justify; padding-bottom: 25px;}
