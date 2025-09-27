@@ -59,8 +59,8 @@ border: 5px solid #B8860B;
  box-sizing: border-box; 
 } 
  #gods a2:before { color: #B8860B;
- content: "\e9e4";
- font: 12px 'cappuccicons';
+ content: "»";
+ font: 12px;
  margin-right: 3px; }
 
  #gods .per{padding-left: 10%;
