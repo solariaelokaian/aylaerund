@@ -37,12 +37,11 @@ border: 5px solid var(--accent);
  text-transform: uppercase;
 text-align: center;
  display: block;
- padding: 5px;
+ padding: 2%;
  margin-bottom: 5px;
  margin-top: 5px;
  text-align: center;
- box-sizing: border-box;
-}
+ box-sizing: border-box;}
 
 #gods .texto{background-color: #0d0d0d;
    padding: 2%;}
