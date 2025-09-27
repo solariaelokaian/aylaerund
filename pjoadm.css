@@ -32,16 +32,16 @@ padding: 2%;
  font: 16px/150% Karla;}
 
 #gods .titu { font: 30px against;
- font-weight: bold;
- text-transform: uppercase;
+font-weight: bold;
+text-transform: uppercase;
 text-align: center;
- display: block;
- padding: 3%;
- margin-top: -1%;
- margin-bottom: 5px;
- margin-top: 5px;
- text-align: center;
- box-sizing: border-box;}
+display: block;
+padding: 4%;
+padding-bottom: 6px;
+margin-top: -1%;
+margin-bottom: 10px;
+text-align: center;
+box-sizing: border-box;}
 
 #gods .texto{background-color: #0d0d0d;
    padding: 2%;}
