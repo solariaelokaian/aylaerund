@@ -30,6 +30,7 @@ color: white;
 background: black;
 padding: 2%;
 border: 5px solid var(--accent);
+outline: 5px solid #000;
  font: 16px/150% Karla;}
 
 #gods .titu { font: 30px against;
@@ -42,8 +43,10 @@ text-align: center;
  margin-top: 5px;
  text-align: center;
  box-sizing: border-box;
-border-bottom: 5px solid var(--accent);
-} 
+}
+
+#gods .texto{background-color: #0d0d0d;
+   padding: 2%;}
 
  #gods h1 { font: 24px against;
  font-weight: bold;
