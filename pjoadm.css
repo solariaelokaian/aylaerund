@@ -86,6 +86,12 @@ text-align: center;
  padding-right: 10%;
  margin-bottom: -24px;}
 
+ #gods .per{margin-left: 10%;
+ margin-right: 10%;
+border: 2px solid var(--accent);
+padding: 2%;
+ margin-bottom: -24px;}
+
 #gods .base b{color: var(--accent);}
 #gods .base strong{color: var(--accent);}
 #gods .base u{text-decoration: none; font-weight: 600; color: white; border-bottom: 2px solid var(--accent);}
