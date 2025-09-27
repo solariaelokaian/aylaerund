@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Amarante&family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Fjalla+One&family=Metamorphous&family=Niconne&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Skranji:wght@400;700&family=UnifrakturCook:wght@700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.godsbg1{width: auto; background: black; height: 150px;}
+.godsd{width: 90%; border-top: solid 2px #daa520; position:relative; top:75px;}
+.godstt{font-family: 'Bebas Neue', cursive; color: #fff; font-size: 58px; text-align: center;position:relative; top:-10px;}
+.godssub1{font-family: arial; color: #fff; font-size: 12px; text-align: center; text-transform: uppercase; padding-top: 20px;}
+.godsbg2{width: auto; border: solid 15px black; background: #0d0d0d; color}
+.godsb{width: auto; font-family: verdana; font-size: 12px; padding-top: 25px; color: #fff; text-align: justify; padding: 2%}
