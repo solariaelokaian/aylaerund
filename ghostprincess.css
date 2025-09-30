@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-.im_nk {width: auto;background-color: white; border: 1px solid #222; color: black;}
+.im_nk {width: 100%;background-color: white; border: 1px solid #222; color: black;}
 .is_nk {padding: 50px; font-family: montserrat; font-size: 13px; color: #000; text-align: justify}
 .mo_nk {color: #eee; font: bold 15px montserrat; letter-spacing: 5px; text-align: justify; height: 250px; border-bottom: 1px solid #222; text-transform: uppercase; background: #9400D3}
-.mo_nk01 {width: 80%; padding: 95px 50px 30px 0px; margin: auto; text-align: center;} .sub{width: 90%; padding-left: 50px; height: 2px; background-color: #eee;}
+.mo_nk01 {width: 80%; padding: 95px 50px 30px 0px; margin: auto; text-align: center;}
+.sub{width: 90%; padding-left: 50px; height: 2px; background-color: #eee;}
 .ishigh {font: 10px montserrat;letter-spacing: 1px;te/xt-align: justify;width: auto;text-transform: lowercase;margin: auto;padding: 40px;}
