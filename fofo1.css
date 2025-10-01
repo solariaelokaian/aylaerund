@@ -145,6 +145,13 @@ color: var(--accent);
   font: 500 13px/120% Poppins;
   color: var(--text);
   text-align: right;
-  padding: 10px;
-   
+  padding: 10px;   
+}
+
+#prin .data b{
+color: var(--text);
+}
+
+#prin .data strong{
+color: var(--text);
 }
