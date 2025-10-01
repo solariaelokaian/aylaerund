@@ -149,9 +149,9 @@ color: var(--accent);
 }
 
 #prin .data b{
-color: var(--text);
+color: var(--accent);
 }
 
 #prin .data strong{
-color: var(--text);
+color: var(--accent);
 }
