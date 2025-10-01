@@ -59,7 +59,7 @@
 }
 #prin .post {
   background: var(--background); 
-  font: 500 13px/200% Montserrat;
+  font: 500 13px/180% Montserrat;
   text-align: justify;
   letter-spacing: .5px;
   padding: 20px;
@@ -105,7 +105,7 @@ color: var(--accent);
   height: 85px;
   padding: 5px;
   float: left; 
-  margin: 5px 15px 10px 10px;  
+  margin: 5px 10px 10px 10px;  
 
 }
 #prin .title {
