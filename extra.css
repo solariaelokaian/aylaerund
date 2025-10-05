@@ -169,9 +169,12 @@ font-family: Poppins;
 #extra .fa3{
 column-count: 2;
 column-gap: 30px;
-text-align: justify;}
+text-align: justify;
+margin-bottom: -16px;}
 
 #extra .fa4{
 column-count: 3;
 column-gap: 30px;
-text-align: justify;}
+text-align: justify;
+margin-bottom: -16px;}
+
