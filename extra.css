@@ -72,6 +72,13 @@ As demais informações e códigos foram feitos para uso no fórum.
   color: #a30000;
 }
 
+#extra u {
+  color: var(--cor);
+   font-weight: 600;
+   text-decoration: none;
+   border-bottom: 2px solid #a30000;
+}
+
 #extra strong {
   color: #a30000;
 }
@@ -83,13 +90,14 @@ As demais informações e códigos foram feitos para uso no fórum.
   padding: 10px;
 box-sizing: border-box;   
   background: var(--background); 
+   color: var(--cor);
 }
 
  
 #extra .texto {
   width: calc(100% - 2px);
       font: 16px/150% Karla;
-    color: var(--color);
+    color: var(--cor);
     padding: 5px;
     margin-top: 3px;
     text-align: justify;
@@ -158,5 +166,12 @@ font-family: Poppins;
   text-transform: uppercase;
 }
 
+#extra .fa3{
+column-count: 2;
+column-gap: 30px;
+text-align: justify;}
 
-
+#extra .fa4{
+column-count: 3;
+column-gap: 30px;
+text-align: justify;}
