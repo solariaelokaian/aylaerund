@@ -170,16 +170,17 @@ font-family: Poppins;
 column-count: 2;
 column-gap: 30px;
 text-align: justify;
-margin-bottom: -40px;}
+margin-bottom: -20px;}
 
 #extra .fa4{
 column-count: 3;
 column-gap: 30px;
 text-align: justify;
-margin-bottom: -20px;}
+margin-bottom: -50px;}
 
 #extra .fa5{
 column-count: 4;
 column-gap: 30px;
 text-align: justify;
 margin-bottom: -20px;}
+
