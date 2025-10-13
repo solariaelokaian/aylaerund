@@ -27,7 +27,7 @@
 #gods .base{width: auto;
 text-align: justify;
 color: white;
-background: #141414;
+background: #0d0d0d;
 padding: 2%;
  font: 16px/150% Karla;}
 
@@ -43,7 +43,7 @@ margin-bottom: 10px;
 text-align: center;
 box-sizing: border-box;}
 
-#gods .texto{background-color: #0d0d0d;
+#gods .texto{background-color: #141414;
    padding: 2%;}
 
  #gods h1 { font: 24px against;
