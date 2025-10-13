@@ -168,23 +168,24 @@ font-family: Poppins;
 
 #extra .fa3{
 column-count: 2;
-column-gap: 30px;
+column-gap: 10px;
 text-align: justify;}
 
 #extra .fa4{
 column-count: 3;
-column-gap: 30px;
+column-gap: 10px;
 text-align: justify;
 margin-bottom: -15px;}
 
 #extra .fa5{
 column-count: 4;
-column-gap: 30px;
+column-gap: 10px;
 text-align: justify;
 margin-bottom: -20px;}
 
 #extra .fa6{
 column-count: 3;
-column-gap: 30px;
+column-gap: 10px;
 text-align: justify;
 margin-bottom: -60px;}
+
