@@ -27,7 +27,7 @@
 #gods .base{width: auto;
 text-align: justify;
 color: white;
-background: black;
+background: #141414;
 padding: 2%;
  font: 16px/150% Karla;}
 
@@ -37,7 +37,7 @@ text-transform: uppercase;
 text-align: center;
 display: block;
 padding: 4%;
-padding-bottom: 6px;
+padding-bottom: 6%;
 margin-top: -1%;
 margin-bottom: 10px;
 text-align: center;
