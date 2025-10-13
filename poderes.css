@@ -52,7 +52,7 @@ box-sizing: border-box;
 #peh .texto {
   width: calc(100% - 2px);
       font: 16px/150% Karla;
-    color: var(--color);
+    color: var(--cor);
     padding: 5px;
     margin-top: 3px;
     text-align: justify;
