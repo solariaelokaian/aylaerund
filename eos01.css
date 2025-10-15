@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Actor|Spectral|Taviraj|Unna&display=swap');
+
+.base{width:auto;
+border: solid 1px #4852A8;
+margin: 2px;}
+
+.head{width:auto;
+background-color: #4852A8;}
+
+.photo{background-size:110px;
+width:110px;
+height:110px;
+border:solid 5px #fff;
+border-radius: 100%;}
+
+.tit{width:auto;
+background-color: #ffffff;
+padding-top: 20px;
+text-align: center;
+font-size: 28px;
+font-weight: bold;
+font-family: 'Unna', serif;
+text-transform: uppercase;
+color: #1C0705;
+letter-spacing: 2px;
+padding-bottom: 25px;}
+
+.tex{width: auto;
+padding-top: 40px;
+text-align: justify;
+font-size: 13px;
+font-family: 'Actor', sans-serif;
+color: #141414;
+letter-spacing: 2px;
+padding-bottom: 25px;}
