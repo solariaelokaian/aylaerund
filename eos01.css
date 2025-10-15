@@ -5,7 +5,8 @@ border: solid 1px #4852A8;
 margin: 2px;}
 
 .head{width:auto;
-background-color: #4852A8;}
+background-color: #4852A8;
+padding: 2%}
 
 .photo{background-size:110px;
 width:110px;
@@ -15,15 +16,14 @@ border-radius: 100%;}
 
 .tit{width:auto;
 background-color: #ffffff;
-padding-top: 20px;
+padding: 20px;
 text-align: center;
 font-size: 28px;
 font-weight: bold;
 font-family: 'Unna', serif;
 text-transform: uppercase;
 color: #1C0705;
-letter-spacing: 2px;
-padding-bottom: 25px;}
+letter-spacing: 2px;}
 
 .tex{width: auto;
 padding-top: 40px;
@@ -32,4 +32,5 @@ font-size: 13px;
 font-family: 'Actor', sans-serif;
 color: #141414;
 letter-spacing: 2px;
-padding-bottom: 25px;}
+padding-bottom: 25px;
+}
