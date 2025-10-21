@@ -90,7 +90,6 @@ box-sizing: border-box;
    color: var(--cor);
 }
 
- 
 #monstro .texto {
   width: calc(100% - 2px);
       font: 16px/150% Karla;
@@ -115,6 +114,7 @@ box-sizing: border-box;
   box-sizing: border-box;
   background: var(--background);
 }
+
 #monstro a2:after {
    content:'';
   display: block;
@@ -135,6 +135,20 @@ box-sizing: border-box;
   margin-top: -3px;
   box-sizing: border-box;
  border-bottom: var(--border);
+border-right: var(--border);
+ border-left: var(--border);
+}
+
+#monstro span.pontos1 {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 3px;
+  box-sizing: border-box;
+   border-right: 5px solid #a30000;
 }
 
 #monstro span.pontos {
@@ -147,6 +161,7 @@ box-sizing: border-box;
   top: 3px;
   box-sizing: border-box;
 }
+
 #monstro span.pontos b {
   color: #a30000;
   font-family: against;
@@ -154,7 +169,26 @@ box-sizing: border-box;
   font-weight: 900;
   text-align: center;
 }
+
 #monstro span.pontos i {
+font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+ text-align: center;
+  color: var(--cor);
+  text-transform: uppercase;
+}
+
+#monstro span.pontos1 b {
+  color: #a30000;
+  font-family: against;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#monstro span.pontos1 i {
 font-family: Poppins;
   font-style: normal;
   font-weight: 500;
