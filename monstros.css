@@ -37,12 +37,13 @@ As demais informações e códigos foram feitos para uso no fórum.
   width: auto;
   flex-shrink: 0;
   height: auto;
+   margin-top: -15px;
 border-bottom: 5px solid #a30000;
 }
 
 #monstro .foto img {
-  width: 650px;
-  height: 450px;
+  width: 550px;
+  height: 350px;
   object-fit: cover;
 }
 
