@@ -128,6 +128,7 @@ box-sizing: border-box;
    margin-bottom: -35px;
   margin-top: -3px;
   box-sizing: border-box;
+   border: var(--border);
 }
 
 #monstro span.pontos {
