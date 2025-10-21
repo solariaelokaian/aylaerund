@@ -63,6 +63,11 @@ border-bottom: 5px solid #a30000;
   color: #a30000;
 }
 
+#monstro upe {
+  color: #a30000;
+   text-transform: uppercase;
+}
+
 #monstro u {
   color: var(--cor);
    font-weight: 600;
