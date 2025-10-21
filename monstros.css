@@ -37,13 +37,12 @@ As demais informações e códigos foram feitos para uso no fórum.
   width: auto;
   flex-shrink: 0;
   height: auto;
-   margin-top: -15px;
 border-bottom: 5px solid #a30000;
 }
 
 #monstro .foto img {
-  width: 550px;
-  height: 350px;
+  width: 650px;
+  height: 450px;
   object-fit: cover;
 }
 
@@ -129,7 +128,7 @@ box-sizing: border-box;
    margin-bottom: -35px;
   margin-top: -3px;
   box-sizing: border-box;
-   border: var(--border);
+   border-bottom: var(--border);
 }
 
 #monstro span.pontos {
