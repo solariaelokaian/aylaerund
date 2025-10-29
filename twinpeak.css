@@ -33,5 +33,6 @@
 .twinpeak .base {background: #000; border: solid 1px #F7EDED;}
 .twinpeak .cite {padding: 20px; border-bottom: solid 5px #F7EDED;font: italic 14px/14px 'playfair display', times; color: #cccccc;text-align: center;text-transform: lowercase; letter-spacing: 1px;}
 .twinpeak .texto {background: #000; padding: 35px;font: 14px/15px 'playfair display'; color: #cccccc;text-align: justify;}
-.twinpeak .texto b {font-size: 10px;}.twinpeak .body img {width: 90px; height: 90px; padding: 10px;float: right; margin-left: 15px;border: solid 1px #E5E5E5}.twinpeak
-.tag {color: #cccccc; border-top: solid 1px #F7EDED;font-style: italic; float: right;margin: 10px 0 -10px 0; padding: 2px 5px;}
+.twinpeak .texto b {font-size: 10px;}
+.twinpeak .texto img {width: 90px; height: 90px; padding: 10px;float: right; margin-left: 15px;border: solid 1px #E5E5E5}
+.twinpeak .tag {color: #cccccc; border-top: solid 1px #F7EDED;font-style: italic; float: right;margin: 10px 0 -10px 0; padding: 2px 5px;}
