@@ -36,4 +36,4 @@
 .twinpeak .texto b {font-size: 10px;}
 .twinpeak .texto img {width: 90px; height: 90px; padding: 10px;float: right; margin-left: 15px;border: solid 1px #E5E5E5}
 .twinpeak .tag {color: #cccccc; border-top: solid 1px #F7EDED;font-style: italic; float: right;margin: 10px 0 -10px 0; padding: 2px 5px;}
-.twinpeak .frag {width: auto; height: 2px; background: #F7EDED;}
+.twinpeak .frag {width: auto; height: 2px; background: #F7EDED; padding-top: 5px; padding-bottom: 5px;}
