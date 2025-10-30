@@ -173,7 +173,7 @@ text-align: justify;}
 
 #extra .fa4{
 column-count: 3;
-column-gap: 10px;
+column-gap: 0px;
 text-align: justify;
 margin-bottom: -15px;}
 
@@ -188,4 +188,5 @@ column-count: 3;
 column-gap: 10px;
 text-align: justify;
 margin-bottom: -60px;}
+
 
