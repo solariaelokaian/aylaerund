@@ -1,7 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Amarante&family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Fjalla+One&family=Metamorphous&family=Niconne&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Skranji:wght@400;700&family=UnifrakturCook:wght@700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-.godsbg1{width: auto; background: black; height: 150px;}
-.godsd{width: 90%; border-top: solid 2px #daa520; position:relative; top:75px;}
-.godstt{font-family: 'Bebas Neue', cursive; color: #fff; font-size: 58px; text-align: center;position:relative; top:-10px;}
-.godssub1{font-family: arial; color: #fff; font-size: 12px; text-align: center; text-transform: uppercase; padding-top: 20px;}
-.godsbg2{width: auto; border: solid 15px black; background: #0d0d0d; color}
-.godsb{width: auto; font-family: verdana; font-size: 12px; padding-top: 25px; color: #fff; text-align: justify; padding: 2%}
+@import url('//icons.cappuccicons.com/cpf.css')
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Amarante&family=Bebas+Neue&family=Cinzel+Decorative:wght@400;700;900&family=Fjalla+One&family=Metamorphous&family=Niconne&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Skranji:wght@400;700&family=UnifrakturCook:wght@700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Lato:wght@400;700&display=swap');
+@font-face {
+   font-family: "Couture"; 
+  src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
+ format("truetype"); }
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-weight: 400;
+}
+@font-face {
+   font-family: "against"; 
+  src: url(https://dl.dropbox.com/scl/fi/bsliws80lxbcn8orijf4i/against-regular.ttf?rlkey=p0airjvfqi9n3z0zereytbpfr&st=kr6b6143&dl=0);
+  format("truetype"); 
+}
+
+:root{
+   --accent: #B8860B;}
+
+#gods .bg1{width: auto; background: black; height: 150px;}
+#gods .de{width: 90%; border-top: solid 2px #daa520; position:relative; top:75px;}
+#gods .tt{font-family: 'Bebas Neue', cursive; color: #fff; font-size: 58px; text-align: center;position:relative; top:-10px;}
+#gods .sub1{font-family: arial; color: #fff; font-size: 12px; text-align: center; text-transform: uppercase; padding-top: 20px;}
+#gods .bg2{width: auto; border: solid 15px black; background: #0d0d0d;}
+#gods .be{width: auto; font-family: verdana; font-size: 12px; padding-top: 25px; color: #fff; text-align: justify; padding: 2%}
+#gods h1 { font: 24px against; font-weight: bold; text-transform: uppercase; display: block; padding: 5px; margin-bottom: 5px; margin-top: 5px; text-align: left; box-sizing: border-box; color: white; }
+#gods h1:after { content:''; display: block; margin: 5px auto; width: 100%; height: 5px; background: var(--accent);}
+#gods h2 { font: 20px against; font-weight: bold; text-transform: uppercase; display: block; padding: 5px; margin-bottom: 5px; margin-top: 5px; text-align: left; box-sizing: border-box; color: white; }
+#gods h2:before { color: var(--accent); content: "\e9e4"; font: 12px 'cappuccicons'; margin-right: 3px; }
+#gods .per{padding-left: 10%; padding-right: 10%; margin-bottom: -24px;}
+#gods .dest{margin-left: 10%; margin-right: 10%; border: 2px solid var(--accent); padding: 2%; margin-bottom: -24px;}
+#gods .be b{color: var(--accent);} #gods .base strong{color: var(--accent);}
+#gods .be u{text-decoration: none; font-weight: 600; color: white; border-bottom: 2px solid var(--accent);}
+#gods .be upe{text-transform: uppercase; color: var(--accent); font-weight: 600;}
