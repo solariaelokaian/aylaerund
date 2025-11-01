@@ -23,7 +23,8 @@
 }
 
 :root{
-   --accent: #B8860B;}
+   --accent: #B8860B;
+--accent2: #87CEEB;}
 
 #gods .bg1{width: auto; background: black; height: 150px;}
 #gods .de{width: 90%; border-top: solid 2px #daa520; position:relative; top:75px;}
@@ -31,12 +32,13 @@
 #gods .sub1{font-family: arial; color: #fff; font-size: 12px; text-align: center; text-transform: uppercase; padding-top: 20px;}
 #gods .bg2{width: auto; border: solid 15px black; background: #0d0d0d;}
 #gods .be{width: auto; font-family: verdana; font-size: 12px; padding-top: 25px; color: #fff; text-align: justify; padding: 2%}
-#gods h1 { font: 24px against; font-weight: bold; text-transform: uppercase; display: block; padding: 5px; margin-bottom: 5px; margin-top: 5px; text-align: left; box-sizing: border-box; color: white; }
+#gods h1 { font: 24px against; font-weight: bold; text-transform: uppercase; display: block; padding: 5px; margin-bottom: 5px; margin-top: 5px; text-align: left; box-sizing: border-box; color: var(--accent2); }
 #gods h1:after { content:''; display: block; margin: 5px auto; width: 100%; height: 5px; background: var(--accent);}
 #gods h2 { font: 20px against; font-weight: bold; text-transform: uppercase; display: block; padding: 5px; margin-bottom: 5px; margin-top: 5px; text-align: left; box-sizing: border-box; color: white; }
 #gods h2:before { color: var(--accent); content: "\e9e4"; font: 12px 'cappuccicons'; margin-right: 3px; }
 #gods .per{padding-left: 10%; padding-right: 10%; margin-bottom: -24px;}
 #gods .dest{margin-left: 10%; margin-right: 10%; border: 2px solid var(--accent); padding: 2%; margin-bottom: -24px;}
-#gods .be b{color: var(--accent);} #gods .base strong{color: var(--accent);}
-#gods .be u{text-decoration: none; font-weight: 600; color: white; border-bottom: 2px solid var(--accent);}
+#gods .be b{color: var(--accent);} #gods
+.base strong{color: var(--accent);}
+#gods .be u{text-decoration: none; font-weight: 600; color: white; border-bottom: 2px solid var(--accent2);}
 #gods .be upe{text-transform: uppercase; color: var(--accent); font-weight: 600;}
