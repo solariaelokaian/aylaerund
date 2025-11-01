@@ -23,10 +23,10 @@
 }
 
 :root{
-   --accent: #00B2EE;}
+   --accent: #00CDCD;}
 
 #gods .bg1{width: auto; background: black; height: 150px;}
-#gods .de{width: 90%; border-top: solid 2px #009ACD; position:relative; top:75px;}
+#gods .de{width: 90%; border-top: solid 2px #00CDCD; position:relative; top:75px;}
 #gods .tt{font-family: 'Bebas Neue', cursive; color: #fff; font-size: 58px; text-align: center;position:relative; top:-10px;}
 #gods .sub1{font-family: arial; color: #fff; font-size: 12px; text-align: center; text-transform: uppercase; padding-top: 20px;}
 #gods .bg2{width: auto; border: solid 15px black; background: #0d0d0d;}
