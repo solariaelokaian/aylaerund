@@ -26,7 +26,7 @@
    --accent: #87CEEB;}
 
 #gods .bg1{width: auto; background: black; height: 150px;}
-#gods .de{width: 90%; border-top: solid 2px #daa520; position:relative; top:75px;}
+#gods .de{width: 90%; border-top: solid 2px #87CEEB; position:relative; top:75px;}
 #gods .tt{font-family: 'Bebas Neue', cursive; color: #fff; font-size: 58px; text-align: center;position:relative; top:-10px;}
 #gods .sub1{font-family: arial; color: #fff; font-size: 12px; text-align: center; text-transform: uppercase; padding-top: 20px;}
 #gods .bg2{width: auto; border: solid 15px black; background: #0d0d0d;}
