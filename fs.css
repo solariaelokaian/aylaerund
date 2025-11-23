@@ -24,3 +24,6 @@
 .fs2{font: 80px/110% Bebas Neue; text-align: center;}
 .fs3{background: #3355ff; height: 5px; width: auto;}
 .fs4{column-count: 2; column-gap: 10px; margin-bottom: -12px;}
+.ava{width: 200px; height: 320px; float: left; margin-right: 5px;}
+.img1{width: 150px; height: 150px; float: left; margin-right: 5px; margin-top: 5px; margin-bottom: -3px;}
+.img2{width: 150px; height: 150px; float: right; margin-left: 5px; margin-top: 5px; margin-bottom: -3px;}
