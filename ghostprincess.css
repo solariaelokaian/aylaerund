@@ -5,3 +5,6 @@
 .mo_nk01 {padding-top: 95px; line-height: 34px; margin: auto; text-align: center; width: fit-content; border-bottom: 3px solid #eee; position: relative;}
 .sub{width: 90%; padding-left: 50px; height: 2px; background-color: #eee;}
 .ishigh {font: 10px montserrat;letter-spacing: 1px;te/xt-align: justify;width: auto;text-transform: lowercase;margin: auto; padding: 40px; padding-right: 75px;}
+.ava{width: 200px; height: 320px; float: left; margin-right: 5px;}
+.img1{width: 150px; height: 150px; float: left; margin-right: 5px; margin-top: 5px; margin-bottom: -3px;}
+.img2{width: 150px; height: 150px; float: right; margin-left: 5px; margin-top: 5px; margin-bottom: -3px;}
