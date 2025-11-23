@@ -155,3 +155,7 @@ color: var(--accent);
 #prin .data strong{
 color: var(--accent);
 }
+
+.ava{width: 200px; height: 320px; float: left; margin-right: 5px;}
+.img1{width: 150px; height: 150px; float: left; margin-right: 5px; margin-top: 5px; margin-bottom: -3px;}
+.img2{width: 150px; height: 150px; float: right; margin-left: 5px; margin-top: 5px; margin-bottom: -3px;}
