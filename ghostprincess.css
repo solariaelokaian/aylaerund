@@ -2,9 +2,9 @@
 .im_nk {width: 100%;background-color: white; border: 1px solid #222; color: black;}
 .is_nk {padding: 50px; font-family: montserrat; font-size: 13px; color: #000; text-align: justify}
 .mo_nk {color: #eee; font: bold 15px montserrat; letter-spacing: 5px; text-align: justify; height: 250px; border-bottom: 1px solid #222; text-transform: uppercase; background: #9400D3}
-.mo_nk01 {padding-top: 95px; line-height: 34px; margin: auto; text-align: center; width: fit-content; border-bottom: 3px solid #eee; position: relative; margin-right: 35px;}
+.mo_nk01 {padding-top: 95px; line-height: 34px; margin: auto; text-align: center; width: fit-content; border-bottom: 3px solid #eee; position: relative;}
 .sub{width: 90%; padding-left: 50px; height: 2px; background-color: #eee;}
-.ishigh {font: 10px montserrat;letter-spacing: 1px;te/xt-align: justify;width: auto;text-transform: lowercase;margin: auto; padding: 40px; padding-right: 75px;}
+.ishigh {font: 10px montserrat;letter-spacing: 1px;te/xt-align: justify;width: auto;text-transform: lowercase;margin: auto; padding: 60px; margin-right: 75px;}
 .ava{width: 200px; height: 320px; float: left; margin-right: 5px;}
 .img1{width: 150px; height: 150px; float: left; margin-right: 5px; margin-top: 5px; margin-bottom: -3px;}
 .img2{width: 150px; height: 150px; float: right; margin-left: 5px; margin-top: 5px; margin-bottom: -3px;}
