@@ -5,7 +5,7 @@ border: solid 1px #4852A8;
 margin: 2px;}
 
 .head{width:auto;
-background-color: #4852A8;
+background-color: var(--accent);
 padding: 2%}
 
 .photo{background-size:110px;
