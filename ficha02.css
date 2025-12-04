@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Lato:wght@400;700&family=Terminal+Dosis+Light&display=swap');
 @font-face {
    font-family: "Couture"; 
   src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
@@ -19,8 +19,6 @@
   src: url(https://dl.dropbox.com/scl/fi/bsliws80lxbcn8orijf4i/against-regular.ttf?rlkey=p0airjvfqi9n3z0zereytbpfr&st=kr6b6143&dl=0);
   format("truetype"); 
 } 
-
-@import url('http://fonts.googleapis.com/css?family=Terminal+Dosis+Light');
 
 .title1 { opacity: 0; width: 100px; height: 100px; transition-duration: 0.5s;  -moz-transition-duration: 0.5s;  -webkit-transition-duration: 0.5s;  -o-transition-duration: 0.5s; padding-top: 5px; }
 .title1:hover { opacity: 1 }
