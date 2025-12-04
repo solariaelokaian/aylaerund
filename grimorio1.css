@@ -41,6 +41,7 @@ text-align:center;}
 
 #grim .sub{font-size:28px;
 line-height: 32px;
+font-family: 'Lobster';
 color: var(--accent1);
 text-style: italic;
 padding-top: 10px;}
