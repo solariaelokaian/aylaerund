@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Actor|Spectral|Taviraj|Unna&display=swap');
 
 .base{width:auto;
-border: solid 1px #4852A8;
+border: solid 1px var(--accent);
 margin: 2px;}
 
 .head{width:auto;
