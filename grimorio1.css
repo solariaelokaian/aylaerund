@@ -47,4 +47,6 @@ text-align:center;
 text-style: italic;
 padding-top: 10px;}
 
-#grim .sep{background-image: url('https://i.imgur.com/C4kN5TQ.png');}
+#grim .sep{width: auto;
+height: 2px;
+color: var(--accent2);}
