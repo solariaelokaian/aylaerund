@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Lato:wght@400;700&family=Lobster&display=swap');
+@font-face {
+   font-family: "Couture"; 
+  src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
+ format("truetype"); }
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-weight: 400;
+}
+@font-face {
+   font-family: "against"; 
+  src: url(https://dl.dropbox.com/scl/fi/bsliws80lxbcn8orijf4i/against-regular.ttf?rlkey=p0airjvfqi9n3z0zereytbpfr&st=kr6b6143&dl=0);
+  format("truetype"); 
+} 
+
+#grim .bg{background-image:url(https://2img.net/h/oi64.tinypic.com/j91wlf.jpg);
+border-radius: 15px 15px 15px 15px;
+width:auto;
+height:50%;
+color:black;
+font-family:times new roman;
+font-size: 12pt;
+text-align:justify;
+bgcolor:#111112;
+padding:25px;}
+
+#grim .tit{font-size: 30pt; font-family: 'Lobster';
+letter-spacing: 0px;
+text-transform:none;
+color: var(--accent);
+text-shadow: 2px 2px 2px #000;
+text-align:center}
+
+#grim .sub{font-size:28px;
+color: var(--accent2);
+text-style: italic;}
+
+#grim .div{background-image: url(http://2.bp.blogspot.com/-iNiJQYvJ2lg/UiClc76894I/AAAAAAAAAyM/kDk5dKOd0nM/s1600/text-divider.png);}
