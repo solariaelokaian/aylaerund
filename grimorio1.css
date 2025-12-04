@@ -20,7 +20,7 @@
   format("truetype"); 
 } 
 
-#grim .bg{background-image:url(https://2img.net/h/oi64.tinypic.com/j91wlf.jpg);
+#grim .bg{background-image:url(https://i.imgur.com/zzypeaM.png);
 border-radius: 15px 15px 15px 15px;
 width:auto;
 height:50%;
@@ -47,4 +47,4 @@ text-align:center;
 text-style: italic;
 padding-top: 10px;}
 
-#grim .sep{background-image: url(http://2.bp.blogspot.com/-iNiJQYvJ2lg/UiClc76894I/AAAAAAAAAyM/kDk5dKOd0nM/s1600/text-divider.png);}
+#grim .sep{background-image: url('https://i.imgur.com/C4kN5TQ.png');}
