@@ -28,18 +28,22 @@ color:black;
 font-family:times new roman;
 font-size: 12pt;
 text-align:justify;
-bgcolor:#111112;
+background-color:#111112;
 padding:25px;}
 
-#grim .tit{font-size: 30pt; font-family: 'Lobster';
+#grim .tit{font-size: 30pt;
+line-height: 35px;
+font-family: 'Lobster';
 letter-spacing: 0px;
 text-transform:none;
 color: var(--accent);
 text-shadow: 2px 2px 2px #000;
-text-align:center}
+text-align:center;}
 
 #grim .sub{font-size:28px;
-color: var(--accent2);
-text-style: italic;}
+line-height: 32px;
+color: var(--accent1);
+text-style: italic;
+padding-top: 10px;}
 
 #grim .sep{background-image: url(http://2.bp.blogspot.com/-iNiJQYvJ2lg/UiClc76894I/AAAAAAAAAyM/kDk5dKOd0nM/s1600/text-divider.png);}
