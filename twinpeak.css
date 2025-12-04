@@ -41,3 +41,5 @@
 .twinpeak .tag {color: #cccccc; border-top: solid 1px #F7EDED;font-style: italic; float: right;margin: 10px 0 -10px 0; padding: 2px 5px;}
 .twinpeak .frag {width: auto; height: 3px; background: #F7EDED; margin-top: 10px; margin-bottom: 5px;}
 .twinpeak .texto a {color: var(--accent1);}
+.twinpeak .a1 {color: var(--accent); text-transform: uppercase; text-align: center;}
+.twinpeak .a2 {color: var(--accent);  text-align: center;}
