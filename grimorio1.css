@@ -48,5 +48,5 @@ text-style: italic;
 padding-top: 10px;}
 
 #grim .sep{width: auto;
-height: 2px;
-color: var(--accent);}
+height: 5px;
+background: var(--accent);}
