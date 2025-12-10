@@ -197,6 +197,7 @@ margin-bottom: -60px;}
   flex-shrink: 0;
   height: 400px;
    float: left;
+   margin-right: 15px;
 }
 
 #extra .foto img {
