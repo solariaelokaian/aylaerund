@@ -27,7 +27,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 } 
 :root {
   --background: #fefefe;
-  --border: 5px solid #a30000;
+  --border: 5px solid var(--accent);
   --cor: #000;
    --imortais: #EEDD82;
    --deuses: #B8860B;
@@ -69,18 +69,18 @@ As demais informações e códigos foram feitos para uso no fórum.
 }
  
 #extra b {
-  color: #a30000;
+  color: var(--accent);
 }
 
 #extra u {
   color: var(--cor);
    font-weight: 600;
    text-decoration: none;
-   border-bottom: 2px solid #a30000;
+   border-bottom: 2px solid var(--accent);
 }
 
 #extra strong {
-  color: #a30000;
+  color: var(--accent);
 }
  
 #extra .fichabase {
@@ -124,7 +124,7 @@ box-sizing: border-box;
   margin: 5px auto;
   width: 100%;
   height: 5px;
-  background: #a30000;
+  background: var(--accent);
    }
 
 #extra .atributos {
@@ -150,7 +150,7 @@ box-sizing: border-box;
   box-sizing: border-box;
 }
 #extra span.pontos b {
-  color: #a30000;
+  color: var(--accent);
   font-family: against;
   font-size: 25px;
   font-weight: 900;
@@ -191,11 +191,12 @@ margin-bottom: -60px;}
 
 #extra .foto {
   padding: 10px;
-  outline: 1px solid #a30000;
+  outline: 1px solid var(--accent);
   outline-offset: 0px;
   width: 250px;
   flex-shrink: 0;
   height: 400px;
+   float: left;
 }
 
 #extra .foto img {
