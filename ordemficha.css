@@ -1,0 +1,205 @@
+/********************* CREDITOS *********************/
+A estruturação de partes do código vindo de lyurcodes nos códigos de ficha do wandless para o nome.
+A parte de dados do personagem e atributos baseado na parte de atributos da ficha de personagem do sirion.
+As demais informações e códigos foram feitos para uso no fórum.
+/********************* CREDITOS *********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Lato:wght@400;700&display=swap');
+@font-face {
+   font-family: "Couture"; 
+  src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
+ format("truetype"); }
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-weight: 400;
+}
+@font-face {
+   font-family: "against"; 
+  src: url(https://dl.dropbox.com/scl/fi/bsliws80lxbcn8orijf4i/against-regular.ttf?rlkey=p0airjvfqi9n3z0zereytbpfr&st=kr6b6143&dl=0);
+  format("truetype"); 
+} 
+:root {
+  --background: #fefefe;
+  --border: 5px solid #a30000;
+  --cor: #000;
+   --imortais: #EEDD82;
+   --deuses: #B8860B;
+   --estagiarios: #DAA520;
+   --senado: #551A8B;
+   --coortes: #F08080;
+   --amazonas: #850303;
+   --aprendizes: #EEC900;
+   --artifices: #1E90FF;
+   --caçadoras: #BA55D3;
+   --campeoes: #00FF7F; 
+   --ceifadores: #696969; 
+   --curandeiros: #87CEEB; 
+   --devotos: #000080;
+   --druidas: #228B22; 
+   --ecos: #DB7093; 
+   --einherjar: #0000FF; 
+   --feiticeiras: #DB7093; 
+   --justiceiros: #CD6090;  
+   --arautos: #2E8B57;
+   --licantropos: #D2691E; 
+   --maos: #6B8E23; 
+   --mentalistas: #2E8B57; 
+   --sacerdotisas: #FF8C00; 
+   --trapaceiros: #7FFFD4; 
+   --valquirias: #4169E1;
+  --africanos: #8B4513; 
+   --americanos: #008B8B; 
+   --celtas: #32CD32; 
+   --egipcios: #F4A460; 
+   --gregos: #FF4500; 
+   --mesopotamicos: #A52A2A; 
+   --nordicos: #00FFFF;
+   --orientais: #FF0000; 
+   --criaturas: #A825A8; 
+   --humanos: #836FFF; 
+   --legados: #808000; 
+   --natureza: #035C03;
+}
+ 
+#extra b {
+  color: #a30000;
+}
+
+#extra u {
+  color: var(--cor);
+   font-weight: 600;
+   text-decoration: none;
+   border-bottom: 2px solid #a30000;
+}
+
+#extra strong {
+  color: #a30000;
+}
+ 
+#extra .fichabase {
+ width: calc(auto - 2px);
+  margin: 0 auto;
+  border: var(--border);
+  padding: 10px;
+box-sizing: border-box;   
+  background: var(--background); 
+   color: var(--cor);
+}
+
+ 
+#extra .texto {
+  width: calc(100% - 2px);
+      font: 16px/150% Karla;
+    color: var(--cor);
+    padding: 5px;
+    margin-top: 3px;
+    text-align: justify;
+  box-sizing: border-box;
+  background: var(--background);
+}
+
+#extra .fichabase a2 {
+  font: 22px against;
+   font-weight: bold;
+  text-transform: uppercase;
+  color: var(--cor);
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+  box-sizing: border-box;
+  background: var(--background);
+}
+#extra a2:after {
+   content:'';
+  display: block;
+  margin: 5px auto;
+  width: 100%;
+  height: 5px;
+  background: #a30000;
+   }
+
+#extra .atributos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: stats;
+  background: var(--background);
+  padding: 10px;
+   margin-bottom: -35px;
+  margin-top: -3px;
+  box-sizing: border-box;
+}
+
+#extra span.pontos {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 3px;
+  box-sizing: border-box;
+}
+#extra span.pontos b {
+  color: #a30000;
+  font-family: against;
+  font-size: 25px;
+  font-weight: 900;
+  text-align: center;
+}
+#extra span.pontos i {
+font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+ text-align: center;
+  color: var(--cor);
+  text-transform: uppercase;
+}
+
+#extra .fa3{
+column-count: 2;
+column-gap: 10px;
+text-align: justify;}
+
+#extra .fa4{
+column-count: 3;
+column-gap: 0px;
+text-align: justify;
+margin-bottom: -15px;}
+
+#extra .fa5{
+column-count: 4;
+column-gap: 10px;
+text-align: justify;
+margin-bottom: -20px;}
+
+#extra .fa6{
+column-count: 3;
+column-gap: 10px;
+text-align: justify;
+margin-bottom: -60px;}
+
+#extra .foto {
+  padding: 10px;
+  outline: 1px solid #a30000;
+  outline-offset: 0px;
+  width: 250px;
+  flex-shrink: 0;
+  height: 400px;
+}
+
+#extra .foto img {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
