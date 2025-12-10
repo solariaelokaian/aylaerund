@@ -28,7 +28,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 :root {
   --background: #fefefe;
   --cor: #000;
---accent: var(--accent);}
+}
 
 #extra b {
   color: var(--accent);
