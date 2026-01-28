@@ -27,7 +27,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 } 
 :root {
   --background: #fefefe;
-  --border: 5px solid #a30000;
+  --border: 5px solid var(--accent);
   --cor: #000;
      --imortais: #EEDD82;
    --deuses: #B8860B;
