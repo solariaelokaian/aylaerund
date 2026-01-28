@@ -32,7 +32,7 @@
 .twinpeak {width: auto; padding: 30px;background: #000; border: solid 1px #F7EDED; line-height: 125%; color: #fff;}
 .twinpeak .base {border: solid 1px #F7EDED;}
 .twinpeak .cite {padding: 20px; border-bottom: solid 5px #F7EDED;font: italic 14px/14px 'playfair display', times; color: #eee;text-align: center; text-transform: lowercase; letter-spacing: 1px;}
-.twinpeak .texto {background: #000; padding: 35px;font: 14px/18px 'playfair display'; color: #fff; text-align: justify;}
+.twinpeak .texto {background: #000; padding: 35px;font: 14px/120% 'playfair display'; color: #fff; text-align: justify;}
 .twinpeak .texto b {color: var(--accent);}
 .twinpeak .texto strong {color: var(--accent);}
 .twinpeak .texto i {color: var(--accent);}
