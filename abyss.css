@@ -21,7 +21,7 @@
 }
 
 /* =========================================================
-   TOPO (HEADER & IMAGEM)
+   TOPO (HEADER & IMAGEM FANTASMAGÓRICA)
    ========================================================= */
 .abyss-header {
     position: relative;
@@ -33,15 +33,24 @@
 
 .abyss-cover {
     width: 100%;
-    height: 350px;
+    height: 380px;
     background-size: cover !important;
-    background-position: top center;
+    background-position: center;
     position: absolute;
     top: 0; left: 0;
     z-index: 1;
+    filter: grayscale(40%) sepia(20%); /* Efeito de foto antiga */
 }
 
-/* O gradiente que faz a imagem sumir gradualmente */
+/* Efeito de Névoa/Fantasma sobre a imagem */
+.abyss-cover::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle, transparent 20%, rgba(255,255,255,0.15) 80%);
+    animation: ghost-mist 8s ease-in-out infinite alternate;
+}
+
 .abyss-cover::after {
     content: "";
     position: absolute;
@@ -53,55 +62,60 @@
     position: relative;
     z-index: 2;
     text-align: center;
-    margin-top: 220px; /* Empurra o título para a área de transição da imagem */
+    margin-top: 250px;
     padding: 0 20px;
 }
 
 .abyss-title {
     font-family: var(--font-title);
-    font-size: 4.5rem;
+    font-size: 24px;
     color: var(--bg-abyss);
     margin: 0;
     line-height: 1;
-    text-shadow: 2px 2px 5px rgba(244, 241, 234, 0.8);
+    text-shadow: 0 0 15px rgba(255,255,255,0.6);
+    animation: ghost-flicker 5s linear infinite;
 }
 
 .abyss-subtitle {
     font-family: var(--font-text);
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: var(--blood-crimson);
     margin: 10px 0 20px 0;
+    opacity: 0.8;
 }
 
 .abyss-icon {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #000;
     margin-bottom: 30px;
+    filter: drop-shadow(0 0 5px var(--blood-crimson));
+    animation: ghost-pulse 3s ease-in-out infinite;
 }
 
 /* =========================================================
-   MEIO (TEXTO DA POSTAGEM)
+   MEIO (CONTEÚDO)
    ========================================================= */
 .abyss-content {
     position: relative;
     z-index: 2;
-    padding: 20px 12% 70px 12%; /* Espaçamento elegante nas laterais */
-    font-size: 15px;
+    padding: 20px 12% 70px 12%;
+    font-size: 15.5px;
     line-height: 1.8;
     text-align: justify;
 }
 
 /* =========================================================
-   BASE (RODAPÉ E INFORMAÇÕES)
+   BASE (RODAPÉ ABISMAL)
    ========================================================= */
 .abyss-footer {
     position: relative;
     background-color: var(--bg-abyss);
     padding: 60px 30px 40px 30px;
     margin-top: 40px;
+    border-top: 2px solid var(--blood-crimson);
 }
 
 .abyss-avatar-wrapper {
@@ -109,25 +123,26 @@
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--bg-paper); /* Borda protetora simulada */
-    padding: 6px;
+    background-color: var(--bg-paper);
+    padding: 5px;
     border-radius: 50%;
 }
 
 .abyss-avatar {
-    width: 90px;
-    height: 90px;
+    width: 95px;
+    height: 95px;
     border-radius: 50%;
     background-size: cover !important;
     background-position: center;
     border: 2px solid var(--blood-crimson);
+    filter: contrast(110%) saturate(80%); /* Look de câmera obscura */
 }
 
 .abyss-info-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px 25px;
+    gap: 15px 30px;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -136,13 +151,34 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    font-size: 11px;
+    font-size: 10.5px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     color: var(--text-light);
+    opacity: 0.8;
 }
 
 .abyss-info-grid i {
     color: #8b0000;
     font-size: 14px;
+}
+
+/* =========================================================
+   ANIMAÇÕES FANTASMAGÓRICAS
+   ========================================================= */
+@keyframes ghost-flicker {
+    0%, 100% { opacity: 1; filter: blur(0px) brightness(100%); }
+    50% { opacity: 0.8; filter: blur(1px) brightness(120%); }
+    52% { opacity: 0.9; filter: blur(0px) brightness(100%); }
+    54% { opacity: 0.7; filter: blur(2px) brightness(150%); }
+}
+
+@keyframes ghost-mist {
+    from { transform: scale(1) translateY(0); opacity: 0.3; }
+    to { transform: scale(1.1) translateY(-10px); opacity: 0.6; }
+}
+
+@keyframes ghost-pulse {
+    0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px var(--blood-crimson)); }
+    50% { transform: scale(1.1); filter: drop-shadow(0 0 12px var(--blood-crimson)); }
 }
