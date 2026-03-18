@@ -78,10 +78,10 @@
 
 .abyss-subtitle {
     font-family: var(--font-text);
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: var(--blood-crimson);
     margin: 10px 0 20px 0;
     opacity: 0.8;
