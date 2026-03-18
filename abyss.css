@@ -68,7 +68,7 @@
 
 .abyss-title {
     font-family: var(--font-title);
-    font-size: 24px;
+    font-size: 26px;
     color: var(--bg-abyss);
     margin: 0;
     line-height: 1;
@@ -89,7 +89,7 @@
 
 .abyss-icon {
     font-size: 2rem;
-    color: #000;
+    color: #000000;
     margin-bottom: 30px;
     filter: drop-shadow(0 0 5px var(--blood-crimson));
     animation: ghost-pulse 3s ease-in-out infinite;
@@ -159,7 +159,7 @@
 }
 
 .abyss-info-grid i {
-    color: #8b0000;
+    color: #8b0000 !important;
     font-size: 14px;
 }
 
