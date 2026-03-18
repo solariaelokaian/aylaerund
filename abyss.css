@@ -78,7 +78,7 @@
 
 .abyss-icon {
     font-size: 1.8rem;
-    color: var(--bg-abyss);
+    color: #000;
     margin-bottom: 30px;
 }
 
@@ -143,6 +143,6 @@
 }
 
 .abyss-info-grid i {
-    color: var(--blood-crimson);
+    color: #8b0000;
     font-size: 14px;
 }
