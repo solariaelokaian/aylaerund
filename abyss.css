@@ -11,7 +11,6 @@
    ========================================================= */
 .abyss-seal-container {
     width: 100%;
-    max-width: 900px;
     margin: 40px auto;
     background-color: var(--bg-paper);
     border-radius: 8px;
