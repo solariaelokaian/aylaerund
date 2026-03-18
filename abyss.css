@@ -1,0 +1,149 @@
+/* =========================================================
+   BLINDAGEM E RESET
+   ========================================================= */
+.abyss-seal-container, 
+.abyss-seal-container * {
+    box-sizing: border-box;
+}
+
+/* =========================================================
+   ESTRUTURA PRINCIPAL
+   ========================================================= */
+.abyss-seal-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: var(--bg-paper);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    font-family: var(--font-text);
+    color: var(--text-dark);
+}
+
+/* =========================================================
+   TOPO (HEADER & IMAGEM)
+   ========================================================= */
+.abyss-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abyss-cover {
+    width: 100%;
+    height: 350px;
+    background-size: cover !important;
+    background-position: top center;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 1;
+}
+
+/* O gradiente que faz a imagem sumir gradualmente */
+.abyss-cover::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to bottom, transparent 40%, var(--bg-paper) 100%);
+}
+
+.abyss-title-wrapper {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 220px; /* Empurra o título para a área de transição da imagem */
+    padding: 0 20px;
+}
+
+.abyss-title {
+    font-family: var(--font-title);
+    font-size: 4.5rem;
+    color: var(--bg-abyss);
+    margin: 0;
+    line-height: 1;
+    text-shadow: 2px 2px 5px rgba(244, 241, 234, 0.8);
+}
+
+.abyss-subtitle {
+    font-family: var(--font-text);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--blood-crimson);
+    margin: 10px 0 20px 0;
+}
+
+.abyss-icon {
+    font-size: 1.8rem;
+    color: var(--bg-abyss);
+    margin-bottom: 30px;
+}
+
+/* =========================================================
+   MEIO (TEXTO DA POSTAGEM)
+   ========================================================= */
+.abyss-content {
+    position: relative;
+    z-index: 2;
+    padding: 20px 12% 70px 12%; /* Espaçamento elegante nas laterais */
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* =========================================================
+   BASE (RODAPÉ E INFORMAÇÕES)
+   ========================================================= */
+.abyss-footer {
+    position: relative;
+    background-color: var(--bg-abyss);
+    padding: 60px 30px 40px 30px;
+    margin-top: 40px;
+}
+
+.abyss-avatar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--bg-paper); /* Borda protetora simulada */
+    padding: 6px;
+    border-radius: 50%;
+}
+
+.abyss-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-size: cover !important;
+    background-position: center;
+    border: 2px solid var(--blood-crimson);
+}
+
+.abyss-info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.abyss-info-grid span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-light);
+}
+
+.abyss-info-grid i {
+    color: var(--blood-crimson);
+    font-size: 14px;
+}
