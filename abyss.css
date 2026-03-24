@@ -68,8 +68,8 @@
 
 .abyss-title {
     font-family: var(--font-title);
-    font-size: 26px;
-    color: var(--bg-abyss);
+    font-size: 32px;
+    color: #F08080 !important;
     margin: 0;
     line-height: 1;
     text-shadow: 0 0 15px rgba(255,255,255,0.6);
@@ -89,7 +89,7 @@
 
 .abyss-icon {
     font-size: 2rem;
-    color: #000000;
+    color: #000000 !important;
     margin-bottom: 30px;
     filter: drop-shadow(0 0 5px var(--blood-crimson));
     animation: ghost-pulse 3s ease-in-out infinite;
