@@ -35,7 +35,7 @@
   background:var(--border-c);
   gap:1px;
   grid-template-columns: 30px 1fr;
-  grid-template-rows: 40px 1fr;
+  grid-template-rows: 45px 1fr;
   grid-template-areas:
     'forumname tabs'
     'forumname data';
