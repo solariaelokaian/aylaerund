@@ -188,13 +188,13 @@ OUTRAS COISAS
 ==========================================================
 .abyss-content upe{text-transform: uppercase;
                   font-weight: bolder;
-                  color: var(--speech)}
+                  color: var(--speech);}
 
 .abyss-content b {font-weight: bolder;
-                  color: var(--speech)}
+                  color: var(--speech);}
 
 .abyss-content strong {font-weight: bolder;
-                  color: var(--speech)}
+                  color: var(--speech);}
 
 .abyss-content i{font-style: italic;
                   color: var(--thought)}
@@ -202,3 +202,6 @@ OUTRAS COISAS
 .abyss-content u{font-decorate: none;
                 border-bottom: 2px solid var(--speech);
                 font-weight: bolder;}
+
+.abyss-content ale {font-weight: bolder;
+                  color: #3CB371;}
