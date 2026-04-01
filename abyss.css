@@ -199,7 +199,7 @@ OUTRAS COISAS
 .abyss-content i{font-style: italic;
                   color: var(--thought)}
 
-.abyss-content u{font-decorate: none;
+.abyss-content u{text-decorate: none;
                 border-bottom: 2px solid var(--speech);
                 font-weight: bolder;}
 
