@@ -200,6 +200,7 @@ OUTRAS COISAS
                   color: var(--thought)}
 
 .abyss-content u{text-decorate: none;
+                 color: #CD853F;
                 border-bottom: 2px solid var(--speech);
                 font-weight: bolder;}
 
