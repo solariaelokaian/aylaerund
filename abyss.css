@@ -182,3 +182,23 @@
     0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px var(--blood-crimson)); }
     50% { transform: scale(1.1); filter: drop-shadow(0 0 12px var(--blood-crimson)); }
 }
+
+==========================================================
+OUTRAS COISAS
+==========================================================
+.abyss-content upe{text-transform: uppercase;
+                  font-weight: bolder;
+                  color: var(--speech)}
+
+.abyss-content b {font-weight: bolder;
+                  color: var(--speech)}
+
+.abyss-content strong {font-weight: bolder;
+                  color: var(--speech)}
+
+.abyss-content i{font-style: italic;
+                  color: var(--thought)}
+
+.abyss-content u{font-decorate: none;
+                border-bottom: 2px solid var(--speech);
+                font-weight: bolder;}
