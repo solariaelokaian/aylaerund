@@ -139,7 +139,7 @@ font-family: Poppins;
 }
 #ficha .foto {
   padding: 10px;
-  outline: 1px solid #a30000;
+  outline: 1px solid var(--accent);
   outline-offset: 0px;
   width: 250px;
   flex-shrink: 0;
