@@ -71,7 +71,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 #ficha .base {
  width: calc(auto - 2px);
   margin: 0 auto;
-  border: var(--border);
+  border: 5px solid var(--accent);
 box-sizing: border-box;    
 color: var(--cor);
   background: var(--background);
@@ -86,7 +86,7 @@ color: var(--cor);
 }
 
 #ficha .nome {
-  border-bottom: var(--border);
+  border-bottom: 5px solid var(--accent);
   padding: 30px;
   color: #a30000;
   font: 30px against;
@@ -105,8 +105,8 @@ color: var(--cor);
   grid-area: stats;
   background: var(--background);
   padding: 20px;
-  border-top: var(--border);
-border-bottom: var(--border);
+  border-top: 5px solid var(--accent);
+border-bottom: 5px solid var(--accent);
   margin-top: -3px;
   box-sizing: border-box;
 }
