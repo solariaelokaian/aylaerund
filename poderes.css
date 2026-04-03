@@ -27,7 +27,6 @@ As demais informações e códigos foram feitos para uso no fórum.
 } 
 :root {
   --background: #fefefe;
-  --border: 5px solid #B8860B;
   --cor: #000;
  --imortais: #EEDD82;
    --deuses: #B8860B;
@@ -79,7 +78,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 #peh .pod {
  width: calc(auto - 2px);
   margin: 0 auto;
-  border: var(--border);
+  border: 5px solid #B8860B;
   padding: 10px;
 box-sizing: border-box;   
   background: var(--background); 
