@@ -26,8 +26,7 @@ As demais informações e códigos foram feitos para uso no fórum.
   format("truetype"); 
 } 
 :root {
-  --background: #fefefe;
-  --border: 5px solid var(--accent);
+  --background: #fefefe
   --cor: #000;
    --imortais: #EEDD82;
    --deuses: #B8860B;
@@ -86,7 +85,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 #extra .fichabase {
  width: calc(auto - 2px);
   margin: 0 auto;
-  border: var(--border);
+  border: 5px solid var(--accent);
   padding: 10px;
 box-sizing: border-box;   
   background: var(--background); 
