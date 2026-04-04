@@ -87,7 +87,7 @@ color: var(--cor);
 #ficha .nome {
   border-bottom: 5px solid var(--accent);
   padding: 30px;
-  color: #a30000;
+  color: var(--accent);
   font: 30px against;
   font-weight: bold;
   text-transform: uppercase;
