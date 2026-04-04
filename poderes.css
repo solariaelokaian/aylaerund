@@ -78,7 +78,7 @@ As demais informações e códigos foram feitos para uso no fórum.
 #peh .pod {
  width: calc(auto - 2px);
   margin: 0 auto;
-  border: 5px solid #B8860B;
+  border: 5px solid var(--accent);
   padding: 10px;
 box-sizing: border-box;   
   background: var(--background); 
