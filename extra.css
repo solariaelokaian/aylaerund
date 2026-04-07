@@ -129,15 +129,14 @@ box-sizing: border-box;
 
 #extra .fichabase a4 {
   font: 16px against;
-   font-weight: bold;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--cor);
   display: block;
   padding: 5px;
-   text-align: center;
+  text-align: center;
   margin-bottom: 5px;
-    margin-top: 5px;
-    text-align: left;
+  margin-top: 5px;
   box-sizing: border-box;
   background: var(--background);
 }
