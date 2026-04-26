@@ -201,3 +201,8 @@ OUTRAS COISAS
 
 .abyss-content ale {font-weight: bolder;
                   color: #3CB371;}
+
+.abyss-content u {font-weight: 600;
+                  color: var( --text-light);
+                  border-bottom: 2px solid var(--speech);
+                 text-decoration: none;}
