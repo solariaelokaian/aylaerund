@@ -4,11 +4,8 @@
    ========================================================= */
 
 .kothar-light-template {
-    --main-accent: #c5a059;
-    --soft-text: #444;
-    --bg-light: #ffffff;
    width: 100%; 
-    margin: 20px 0;
+    margin: 10px 0;
     background: var(--bg-light);
     border: 1px solid #e0e0e0;
     font-family: 'Inter', sans-serif;
