@@ -1,0 +1,35 @@
+.ro-container { --bg-main: #0e1113; --bg-card: #1c2126; --gold: #c1a461; --border: #343c45; --text: #d1d1d1; width: 95%; margin: 30px auto; background: var(--bg-main); border: 1px solid var(--border); color: var(--text); font-family: 'Arial', sans-serif; box-shadow: 0 0 25px rgba(0,0,0,0.7); overflow: hidden; }
+.ro-header { background: linear-gradient(to right, #1a1e22, #2a3037, #1a1e22); padding: 20px; display: flex; align-items: center; justify-content: center; border-bottom: 2px solid var(--gold); }
+.ro-main-title { font-family: 'Metamorphous', serif; font-size: 24px; color: var(--gold); text-shadow: 2px 2px 0px #000; letter-spacing: 1px; }
+.ro-sub-title { font-size: 10px; text-transform: uppercase; letter-spacing: 4px; color: #888; text-align: center; }
+.ro-rune { font-family: 'Metamorphous', serif; font-size: 30px; margin: 0 25px; color: rgba(193, 164, 97, 0.2); }
+.ro-meta-bar { display: flex; justify-content: space-around; background: rgba(193, 164, 97, 0.05); border-bottom: 1px solid var(--border); padding: 12px; flex-wrap: wrap; }
+.ro-meta-item { display: flex; align-items: center; gap: 8px; font-size: 12px; font-family: 'Roboto Mono', monospace; }
+.ro-meta-item i { color: var(--gold); }
+.ro-meta-item strong { color: var(--gold); font-size: 10px; margin-right: 4px; }
+.ro-body { padding: 20px; } .ro-status-row { display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap; }
+.ro-status-group { flex: 1; min-width: 200px; }
+.ro-status-group label { font-size: 11px; font-weight: bold; color: var(--gold); display: block; margin-bottom: 5px; }
+.ro-progress-bg { background: #000; height: 12px; border: 1px solid var(--border); padding: 1px; border-radius: 2px; }
+.ro-progress-fill { height: 100%; border-radius: 1px; transition: width 0.4s ease; }
+.hp-color { background: #cc3f3f; box-shadow: inset 0 0 5px rgba(0,0,0,0.5); }
+.sp-color { background: #4a90e2; box-shadow: inset 0 0 5px rgba(0,0,0,0.5); }
+.xp-color { background: #98FB98; box-shadow: inset 0 0 5px rgba(0,0,0,0.5); }
+.ro-main-grid { display: flex; gap: 25px; } .ro-aside { flex: 1; min-width: 220px; }
+.ro-content { flex: 3; }
+.ro-label-box { font-family: 'Metamorphous', serif; color: var(--gold); border-bottom: 1px solid var(--gold); padding-bottom: 5px; margin-bottom: 15px; font-size: 15px; text-transform: uppercase; }
+.ro-attribute-list { list-style: none; padding: 0; margin: 0; }
+.ro-attribute-list li { display: flex; justify-content: space-between; padding: 6px 10px; background: var(--bg-card); margin-bottom: 4px; border: 1px solid #2a3037; font-family: 'Roboto Mono', monospace; font-size: 13px; }
+.ro-attribute-list strong { color: var(--gold); } .ro-item-container { display: flex; flex-wrap: wrap; gap: 6px; }
+.ro-item { background: #252b31; border: 1px solid var(--border); padding: 4px 10px; font-size: 11px; border-radius: 2px; color: #bbb; }
+.ro-text-area { background: var(--bg-card); padding: 18px; border-left: 3px solid var(--gold); font-size: 14px; line-height: 1.7; margin-bottom: 25px; text-align: justify; }
+.ro-text-area em { color: var(--gold); }
+.ro-skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+.ro-skill-column { background: rgba(0,0,0,0.2); padding: 12px; border: 1px solid var(--border); }
+.ro-skill-title { font-size: 12px; font-weight: bold; color: var(--gold); border-bottom: 1px solid #333; margin-bottom: 10px; padding-bottom: 5px; }
+.ro-skill-column ul { padding-left: 20px; margin: 0; font-size: 13px; color: #aaa; }
+.ro-footer { background: #090b0d; padding: 10px 20px; display: flex; justify-content: space-between; font-family: 'Roboto Mono', monospace; font-size: 10px; color: #444; border-top: 1px solid var(--border); }
+@media (max-width: 800px)
+{ .ro-main-grid { flex-direction: column; } .ro-aside { min-width: 100%; }
+.ro-skills-grid { grid-template-columns: 1fr; }
+.ro-meta-bar { flex-direction: column; align-items: flex-start; gap: 8px; }
