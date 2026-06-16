@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css");
+
+
+
+#lacrimosa02 {display: grid ; margin: auto; width: var(--width); text-align: justify; font: 400 var(--fontSize) var(--fontBody); border: 1px solid var(--border); background: var(--bg01); position: relative; height: var(--height);  box-sizing: content-box; color: var(--color); }
+
+#lacrimosa02:before { content: ""; position: absolute; height: 100%; width: 1px; background: var(--border); margin-left: calc(2rem + 20px); }
+
+#lacrimosa02 input, #lacrimosa02 br { display: none; }
+
+.lacrimosa0201 { display: flex; flex-direction: row; grid-column: 1; grid-row: 1; width: calc(100% - 2rem - 21px); margin-left: calc(2rem + 21px); }
+
+.lacrimosa020101 { display: flex; align-items: center; justify-content: center; padding: 10px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); flex-direction: column; gap: 5px; cursor: pointer; height: 32px; margin-left: calc(-2rem - 21px); }
+
+.lacrimosa020101 em { font-size: 2rem; color: var(--accent);}
+
+#lacrimosa02 input:checked ~ .lacrimosa020101 { background: var(--accent); color: var(--bg01); }
+
+#lacrimosa02 input:checked ~ .lacrimosa020101 em { color: var(--bg01); }
+
+.lacrimosa020102 { display: none; padding: 30px; box-sizing: border-box; line-height: 110%; height: calc(100%); flex-direction: column; gap: 30px; flex-grow: 1; }
+
+#lacrimosa02 input:checked ~ .lacrimosa020102 { display: flex; z-index: 2 }
+
+#lacrimosa02 ::-webkit-scrollbar { border-left: 1px solid var(--border); width: 10px; height: 15px; background: var(--bg01); }
+
+#lacrimosa02 ::-webkit-scrollbar-corner { background: var(--bg01); outline: 1px solid var(--border); }
+
+#lacrimosa02 ::-webkit-scrollbar-thumb { background: var(--accent); border: 1px solid var(--border); outline: 1px solid var(--border); }
+
+.lacrimosa020102 > img { margin: -30px -30px 0px; width: calc(100% + 60px); border-bottom: 1px solid var(--border); object-fit: cover; }
+
+.lacrimosa02010201 { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.lacrimosa02010201 > span { display: grid; grid-template-columns: 0fr 1fr; border: 1px solid var(--border); flex: auto; padding-right: 5px; }
+
+.lacrimosa02010201 > span em { font-size: 1.5rem; color: var(--accent); display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--border); grid-row: 1 / 3; padding: 5px; margin-right: 5px; }
+
+.lacrimosa02010201 > span label { text-transform: uppercase; font: 600 65% var(--fontMono); color: var(--accent); }
+
+.lacrimosa02010202 { column-count: 2; column-gap: 40px; column-rule: 1px dotted var(--accent); white-space: pre-wrap; font-size: 100%; }
+
+.lacrimosa02010203 { white-space: pre-wrap; line-height: 110%; }
+
+.lacrimosa02Title { display: flex; flex-direction: column; text-transform: uppercase; font: 800 2rem /80% var(--fontBody); }
+
+.lacrimosa02Title span { font: 300 .6rem var(--fontMono); color: var(--accent); }
+
+.lacrimosa02010204 { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center; }
+
+.lacrimosa02010204 > span { display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid var(--border); padding: 7.99px; font: 400 70% / 1 var(--fontMono); position: relative; }
+
+.lacrimosa02010204 > span strong { font-size: 1.5rem; color: var(--accent); line-height: 181%; }
+
+.lacrimosa02010205,
+.lacrimosa02010206 { display: flex; flex-wrap: wrap; gap: 20px; }
+
+.lacrimosa02Bar { display: flex; align-items: center; position: relative; flex: 47%; font: 600 60% var(--fontMono); text-transform: uppercase; border-bottom: 1px solid var(--border); justify-content: space-between; }
+
+.lacrimosa02Bar strong:first-of-type:after { content: ""; display: block; background: var(--border); height: 10px; width: 1px; }
+
+.lacrimosa02Bar strong:last-of-type:after { content: ""; display: block; background: var(--border); height: 10px; width: 1px; margin-left: 99%; }
+
+.lacrimosa02Bar span { position: absolute; width: 100%; height: 10px; bottom: -5px; }
+
+.lacrimosa02Bar span:before { content: ""; width: 10px; height: 10px; display: block; background: var(--accent); margin-left: calc(var(--percent) - 6px); border-radius: 100px; }
+
+.lacrimosa02Dots { display: flex; gap: 5px; flex: 30%; flex-direction: row; font: 500 70% var(--fontMono); text-transform: uppercase; }
+
+.lacrimosa02Dots:after{ font-family: 'remixicon' !important; color: var(--accent); font-size: 1rem; }
+
+.lacrimosa02Dots[data-points="1"]:after { content:"\f3c0""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1";}
+
+.lacrimosa02Dots[data-points="2"]:after  { content:"\f3c0""\f3c0""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1"; }
+
+.lacrimosa02Dots[data-points="3"]:after  {  content:"\f3c0""\f3c0""\f3c0""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1";}
+
+.lacrimosa02Dots[data-points="4"]:after  {  content:"\f3c0""\f3c0""\f3c0""\f3c0""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1"; }
+
+.lacrimosa02Dots[data-points="5"]:after  { content:"\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c1""\f3c1""\f3c1""\f3c1""\f3c1";}
+
+.lacrimosa02Dots[data-points="6"]:after  { content:"\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c1""\f3c1""\f3c1""\f3c1";}
+
+.lacrimosa02Dots[data-points="7"]:after  { content:"\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c1""\f3c1""\f3c1";}
+
+.lacrimosa02Dots[data-points="8"]:after  { content:"\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c1""\f3c1";}
+
+.lacrimosa02Dots[data-points="9"]:after  { content:"\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c1";}
+
+.lacrimosa02Dots[data-points="10"]:after  { content:"\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0""\f3c0";}
+
+#lacrimosa02:after { content: "lacrimosa; edited for Ayla"; font: 600 70% var(--fontMono); text-transform: uppercase; border-top: 1px solid var(--border); padding: 5px; width: -webkit-fill-available; background: var(--bg01); z-index: 3; }
+
+#lacrimosa02 * { box-sizing: content-box; }
+
+.lacrimosa02010202 br, .lacrimosa02010203 br { display: block!important; ; }
