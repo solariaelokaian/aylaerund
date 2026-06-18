@@ -1,0 +1,196 @@
+/********************* CREDITOS *********************/
+A estruturação de partes do código vindo de lyurcodes nos códigos de ficha do wandless para o nome.
+A parte de dados do personagem e atributos baseado na parte de atributos da ficha de personagem do sirion.
+As demais informações e códigos foram feitos para uso no fórum.
+/********************* CREDITOS *********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@500;900&family=Poppins:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&family=Lato:wght@400;700&display=swap');
+@font-face {
+   font-family: "Couture"; 
+  src: url(https://dl.dropbox.com/s/uooxtl95ioyu2f9/couture-bld.otf);
+ format("truetype"); }
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-weight: 400;
+}
+@font-face {
+   font-family: "against"; 
+  src: url(https://dl.dropbox.com/scl/fi/bsliws80lxbcn8orijf4i/against-regular.ttf?rlkey=p0airjvfqi9n3z0zereytbpfr&st=kr6b6143&dl=0);
+  format("truetype"); 
+} 
+:root {
+  --background: #fefefe;
+  --cor: #000;
+  --moderação: #000099;
+  --estagiarios: #2626C9;
+  --mutantes: #00B0F0;
+  --humanos: #AD2978;
+  --arcanos: #C7C720;
+  --kryptonianos: #FF3D3D;
+  --amazonas: #F000CC;
+  --divinos: #B6DE47;
+  --cibers: #90A2A8;
+  --hibridos: #3B93B3;
+}
+ 
+#ficha .base {
+ width: calc(auto - 2px);
+  margin: 0 auto;
+  border: 5px solid var(--accent);
+box-sizing: border-box;    
+color: var(--cor);
+  background: var(--background);
+   font: 16px/150% karla;
+}
+#ficha b {
+  color: var(--accent);
+}
+
+#ficha strong {
+  color: var(--accent);
+}
+
+#ficha .nome {
+  border-bottom: 5px solid var(--accent);
+  padding: 30px;
+  color: var(--accent);
+  font: 30px against;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+    justify-content: center;
+  background: var(--background);
+    align-items: center;
+  
+} 
+#ficha .atributos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: stats;
+  background: var(--background);
+  padding: 20px;
+  border-top: 5px solid var(--accent);
+border-bottom: 5px solid var(--accent);
+  margin-top: -3px;
+  box-sizing: border-box;
+}
+
+#ficha span.pontos {
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 3px;
+  box-sizing: border-box;
+}
+#ficha span.pontos b {
+  color: var(--accent);
+  font-family: against;
+  font-size: 25px;
+  font-weight: 900;
+   padding-bottom: 10px;
+  text-align: center;
+}
+#ficha span.pontos i {
+font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+ text-align: center;
+  color: var(--cor);
+  text-transform: uppercase;
+}
+#ficha .foto {
+  padding: 10px;
+  outline: 1px solid var(--accent);
+  outline-offset: 0px;
+  width: 250px;
+  flex-shrink: 0;
+  height: 400px;
+
+}
+#ficha .foto img {
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+}
+#ficha .boxinfo {
+  display: flex;
+    gap: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+#ficha .dados {
+  width: calc(100% - 250px);
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+#ficha .dados info {
+  background: var(--background);
+ border: 1px solid var(--accent);
+  height: 58px;
+  width: calc(50% - 10px);
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  font: 11px Karla;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--cor);
+  box-sizing: border-box;
+ }  
+
+#ficha .texto {
+  width: calc(100% - 2px);
+      font: 16px/150% Karla;
+    color: var(--color);
+    padding: 5px;
+    margin-top: 3px;
+    text-align: justify;
+  box-sizing: border-box;
+  background: var(--background);
+}
+
+#ficha .texto a{color: var(--deuses);}
+
+#ficha .texto a2 {
+  font: 22px against;
+   font-weight: bold;
+  text-transform: uppercase;
+  color: var(--cor);
+  display: block;
+  padding: 5px;
+  margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+  box-sizing: border-box;
+  background: var(--background);
+}
+#ficha a2:after {
+   content:'';
+  display: block;
+  margin: 5px auto;
+  width: 100%;
+  height: 5px;
+  background: var(--accent);
+   }
