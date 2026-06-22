@@ -28,16 +28,17 @@ As demais informações e códigos foram feitos para uso no fórum.
 :root {
   --background: #fefefe;
   --cor: #000;
-  --moderação: #000099;
-  --estagiarios: #2626C9;
-  --mutantes: #00B0F0;
-  --humanos: #AD2978;
-  --arcanos: #C7C720;
-  --kryptonianos: #FF3D3D;
-  --amazonas: #F000CC;
-  --divinos: #B6DE47;
-  --cibers: #90A2A8;
-  --hibridos: #3B93B3;
+  --moderação: #EAA23E;
+  --estagiarios: #E9967A;
+   --mortos: #572F0F;
+  --mutants: #39FF14;
+  --humans: #3CB371;
+  --arcanes: #A020F0;
+  --kryptonians: #FFD700;
+  --amazons: #FF1493;
+  --divines: #00FFFF;
+  --cybers: #CD6090;
+  --hybrids: #CC0000;
 }
  
 #ficha .base {
