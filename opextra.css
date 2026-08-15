@@ -61,8 +61,7 @@ box-sizing: border-box;
 
 #extra .nome {
   border-bottom: 5px solid var(--accent);
-  padding: 30px;
-   padding-top: -15px;
+  padding: 10px;
   color: var(--accent);
   font: 30px against;
   font-weight: bold;
