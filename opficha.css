@@ -62,8 +62,8 @@ color: var(--cor);
     justify-content: center;
   background: var(--background);
     align-items: center;
-  
 } 
+
 #ficha .atributos {
   display: flex;
   justify-content: center;
