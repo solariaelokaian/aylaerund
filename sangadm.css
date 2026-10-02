@@ -1,0 +1,46 @@
+.sd-staff .sd-sheet-band .sd-icon{color:#dcc591}
+.sd-staff :is(.sd-combat-grid,.sd-combatant,.sd-combat-head,.sd-combat-attrs,.sd-combat-attr,.sd-combat-powers,.sd-combat-math,.sd-rule,.sd-rule-head,.sd-review-head,.sd-review-body)>br{display:none}
+.sd-staff .sd-prose{color:var(--sd-ink);font:15px/1.95 Georgia,serif;overflow-wrap:anywhere}
+.sd-staff .sd-prose p{margin:0 0 18px}
+.sd-staff .sd-note{padding:16px 20px;border-left:3px solid var(--sd-gold);background:var(--sd-panel);border-radius:0 6px 6px 0;color:var(--sd-muted);font:13px/1.85 Arial,sans-serif;overflow-wrap:anywhere}
+.sd-staff .sd-note strong{color:var(--sd-gold)}
+.sd-staff .sd-combat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.sd-staff .sd-combatant{--sd-side:#b3a0d4;min-width:0;padding:18px;border:1px solid var(--sd-line);border-top:3px solid var(--sd-side);border-radius:8px;background:var(--sd-panel)}
+.sd-staff .sd-combat-player{--sd-side:#7eb8c4}
+.sd-staff .sd-combat-head{padding-bottom:18px}
+.sd-staff .sd-combat-head small{display:block;color:var(--sd-side);font:10px/1.6 Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase}
+.sd-staff .sd-combat-head strong{display:block;margin-top:6px;color:var(--sd-ink);font:23px/1.3 Georgia,serif;overflow-wrap:anywhere}
+.sd-staff .sd-combatant .sd-sheet-resources{grid-template-columns:1fr;gap:10px}
+.sd-staff .sd-combatant .sd-sheet-resource{padding:10px;background:var(--sd-paper)}
+.sd-staff .sd-combat-attrs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:18px 0}
+.sd-staff .sd-combat-attr{text-align:center;padding:10px 3px;background:var(--sd-paper);border-radius:4px;min-width:0}
+.sd-staff .sd-combat-attr small{display:block;color:var(--sd-muted);font:8px/1.6 Arial,sans-serif;text-transform:uppercase;overflow-wrap:anywhere}
+.sd-staff .sd-combat-attr b{display:block;color:var(--sd-ink);font:24px/1.4 Georgia,serif}
+.sd-staff .sd-combat-label{display:block;margin:18px 0 10px;color:var(--sd-side);font:11px/1.5 Arial,sans-serif;letter-spacing:.8px;text-transform:uppercase}
+.sd-staff .sd-combat-power{margin-bottom:12px;color:var(--sd-muted);font:12px/1.8 Arial,sans-serif;overflow-wrap:anywhere}
+.sd-staff .sd-combat-power b{display:block;color:var(--sd-ink);font-weight:600}
+.sd-staff .sd-combat-math{padding-top:8px;border-top:1px solid var(--sd-line)}
+.sd-staff .sd-combat-math p{display:flex;justify-content:space-between;gap:12px;margin:8px 0;color:var(--sd-muted);font:12px/1.7 Arial,sans-serif}
+.sd-staff .sd-combat-math b{color:var(--sd-ink);text-align:right;font-weight:500;overflow-wrap:anywhere}
+.sd-staff .sd-rule{margin-bottom:18px;padding:22px;border:1px solid var(--sd-line);border-radius:8px;background:var(--sd-panel)}
+.sd-staff .sd-rule-head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.sd-staff .sd-rule-number{flex-shrink:0;color:var(--sd-gold);font:italic 25px/1 Georgia,serif}
+.sd-staff .sd-rule-head strong{color:var(--sd-ink);font:22px/1.4 Georgia,serif;overflow-wrap:anywhere}
+.sd-staff .sd-rule .sd-prose p:last-child{margin-bottom:0}
+.sd-review.sd-sheet{--sd-verdict:#d2b780;max-width:740px;border-color:var(--sd-verdict)}
+.sd-review.sd-review-approved{--sd-verdict:#80c2a4}
+.sd-review.sd-review-rejected{--sd-verdict:#e28b8b}
+.sd-review .sd-review-head{display:flex;align-items:center;gap:20px;padding:28px;background:var(--sd-panel);border-top:3px solid var(--sd-verdict)}
+.sd-review .sd-review-head>.sd-icon{font-size:38px;color:var(--sd-verdict)}
+.sd-review .sd-review-head strong{display:block;color:var(--sd-verdict);font:32px/1.2 Georgia,serif;overflow-wrap:anywhere}
+.sd-review .sd-review-head small{display:block;margin-top:8px;color:var(--sd-muted);font:10px/1.5 Arial,sans-serif;letter-spacing:1.4px;text-transform:uppercase}
+.sd-review .sd-review-body{padding:22px 28px;border-top:1px solid var(--sd-line)}
+.sd-review .sd-review-body p{margin:0 0 14px;color:var(--sd-ink);font:14px/1.85 Arial,sans-serif;overflow-wrap:anywhere}
+.sd-review .sd-review-body p:last-child{margin-bottom:0}
+.sd-review .sd-review-sign{display:block;padding-top:14px;color:var(--sd-muted);font:11px/1.6 Arial,sans-serif}
+html[data-pjo-theme=light] .sd-staff .sd-combatant{--sd-side:#76549c}
+html[data-pjo-theme=light] .sd-staff .sd-combat-player{--sd-side:#286c7b}
+html[data-pjo-theme=light] .sd-review{--sd-verdict:#856221}
+html[data-pjo-theme=light] .sd-review-approved{--sd-verdict:#27754f}
+html[data-pjo-theme=light] .sd-review-rejected{--sd-verdict:#aa3e42}
+@container(max-width:620px){.sd-staff .sd-combat-grid{grid-template-columns:1fr}.sd-staff .sd-rule{padding:17px}.sd-review .sd-review-head{padding:22px 18px;gap:14px}.sd-review .sd-review-head strong{font-size:27px}.sd-review .sd-review-body{padding:20px 18px}}
