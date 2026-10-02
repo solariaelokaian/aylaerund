@@ -1,4 +1,5 @@
 .sd-staff .sd-sheet-band .sd-icon{color:#dcc591}
+.sd-staff {text-align: justify;}
 .sd-staff :is(.sd-combat-grid,.sd-combatant,.sd-combat-head,.sd-combat-attrs,.sd-combat-attr,.sd-combat-powers,.sd-combat-math,.sd-rule,.sd-rule-head,.sd-review-head,.sd-review-body)>br{display:none}
 .sd-staff .sd-prose{color:var(--sd-ink);font:15px/1.95 Georgia,serif;overflow-wrap:anywhere}
 .sd-staff .sd-prose p{margin:0 0 18px}
