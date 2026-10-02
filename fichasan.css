@@ -27,6 +27,7 @@ html[data-pjo-theme=light] .sd-sheet.sd-sheet{--sd-paper:#fbf8f1;--sd-panel:#f0e
 .sd-sheet .sd-sheet-resources{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;}
 .sd-sheet .sd-sheet-resource{--sd-bar:#73b2a5;display:grid;grid-template-columns:1fr auto;gap:10px;padding:16px;background:var(--sd-panel);border:1px solid var(--sd-line);border-radius:7px;min-width:0;}
 .sd-sheet .sd-sheet-resource-mp{--sd-bar:#789bc7;}
+.sd-staff {text-align: justify;}
 .sd-sheet .sd-sheet-resource-xp{--sd-bar:#c6a56a;}
 .sd-sheet .sd-sheet-resource span{color:var(--sd-gold);font:12px/1.5 Arial,sans-serif;}
 .sd-sheet .sd-sheet-resource b{color:var(--sd-ink);font:400 12px/1.5 Arial,sans-serif;white-space:nowrap;}
