@@ -106,11 +106,11 @@ text-decoration: none;
 }
 #prin .borda {
   border: 1px solid var(--accent);
-  width: 95px;
-  height: 95px;
-  padding: 5px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
   float: left; 
-  margin: 10px 10px 10px 10px;  
+  margin: 5px;  
 
 }
 #prin .title {
